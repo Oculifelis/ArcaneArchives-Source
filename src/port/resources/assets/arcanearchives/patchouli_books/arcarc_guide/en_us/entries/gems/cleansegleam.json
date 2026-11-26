@@ -1,0 +1,35 @@
+{
+  "name": "Cleansegleam",
+  "icon": "arcanearchives:cleansegleam",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:cleansegleam",
+      "link_recipe": true,
+      "text": "A Cleansegleam is an Arcane Gem formed from a blue-spectrum piece of $(l:arcanearchives:items/shaped_quartz)Shaped Radiant Quartz$() in an asscher cut.$(br2)When activated, a Cleansegleam will purge the user of Hunger, Nausea, and Poison at the cost of a point of charge."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If activated while sneaking, you can attempt to all targets within three blocks of you of these effects instead."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Any target affected by a Cleansegleam will also be immunized from poison for 60 seconds.",
+      "flag": "mod:potioncore",
+      "title": "Potion Core"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To recharge a dun Cleansegleam, activate the gem while you have a bucket of milk in your inventory. The milk is consumed, and the bucket is returned. Alternatively, if you have a $(l:arcanearchives:items/radiant_amphora)Radiant Amphora$() linked to a $(l:arcanearchives:blocks/radiant_tank)Radiant Tank$() containing milk, the milk is deducted from the tank directly."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:cleansegleam",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:blue_dye$(br)1 × minecraft:poisonous_potato$(br)1 × minecraft:milk_bucket$(br2)Output: 1 × arcanearchives:cleansegleam",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

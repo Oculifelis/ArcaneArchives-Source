@@ -1,0 +1,26 @@
+{
+  "name": "Thaumaturge兼容",
+  "icon": "arcanearchives:tome_arcana",
+  "category": "arcanearchives:concepts",
+  "flag": "mod:thaumaturge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "要素",
+      "text": "奥术档案的原始要素分配现已适配Thaumaturge，可用于扫描和炼金。辉耀石英提供魔法要素。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "thaumaturge:crucible",
+      "text": "$(br2)$(bold)河之泪$()如果你的物品栏中某处有$(l:arcanearchives:gems/rivertear)河之泪$()（或插在$(l:arcanearchives:items/gem_socket)宝石槽$()中），右键点击炼药锅会将其注满水。",
+      "flag": "arcanearchives:arsenal_enabled",
+      "title": "炼药锅"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "thaumaturge:infusion_matrix",
+      "text": "原始石英簇和囤积火盆可稳定Thaumaturge注魔。请在矩阵两侧同一高度镜像放置相同方块。一对石英簇提供0.15稳定度，一对火盆提供0.2，重复方块受Thaumaturge收益递减规则影响；不对称摆放会降低稳定度。",
+      "title": "注魔"
+    }
+  ]
+}

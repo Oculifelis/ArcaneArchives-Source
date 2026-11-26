@@ -1,0 +1,26 @@
+{
+  "name": "Thaumaturge Compatibility",
+  "icon": "arcanearchives:tome_arcana",
+  "category": "arcanearchives:concepts",
+  "flag": "mod:thaumaturge",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Aspects",
+      "text": "The original Arcane Archives aspect assignments are available to Thaumaturge scans and alchemy. Radiant Quartz supplies Praecantatio."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "thaumaturge:crucible",
+      "text": "$(br2)$(bold)Rivertear$() If you have a $(l:arcanearchives:gems/rivertear)Rivertear$() somewhere in your inventory (or slotted in a $(l:arcanearchives:items/gem_socket)Gem Socket$()), right clicking a Crucible will refill it with water.",
+      "flag": "arcanearchives:arsenal_enabled",
+      "title": "Crucible"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "thaumaturge:infusion_matrix",
+      "text": "Raw Quartz Clusters and Braziers of Hoarding stabilize Thaumaturge infusion. Place matching blocks in mirrored pairs at the same height around the matrix. A Cluster pair supplies 0.15 stability and a Brazier pair 0.2 before Thaumaturge diminishing returns; unmatched blocks reduce stability.",
+      "title": "Infusion"
+    }
+  ]
+}

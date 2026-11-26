@@ -1,0 +1,25 @@
+{
+  "name": "凤凰之道",
+  "icon": "arcanearchives:phoenixway",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:phoenixway",
+      "link_recipe": true,
+      "text": "凤凰之道是一种奥术宝石，由橙色光谱的$(l:arcanearchives:items/shaped_quartz)刻面辉耀石英$()以三角切切割而成。$(br2)激活时，凤凰之道会在最远40格的距离处点燃火焰，消耗一点充能。$(br2)如果你即将受到火焰伤害"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "且手持凤凰之道时，它会阻挡该伤害并给予30秒的火焰免疫效果，消耗十二点充能。$(br2)要为耗尽的凤凰之道充能，在物品栏中有火药时激活宝石。需要三个火药才能完全充满宝石，如果少于三个则仅部分充能。火药被消耗。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:phoenixway",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:blaze_powder$(br)4 × minecraft:coal$(br)1 × minecraft:flint_and_steel$(br2)Output: 1 × arcanearchives:phoenixway",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

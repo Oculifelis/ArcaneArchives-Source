@@ -1,0 +1,25 @@
+{
+  "name": "Gem Socket",
+  "icon": "arcanearchives:gemsocket",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:items",
+  "flag": "arcanearchives:arsenal_enabled",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:gemsocket",
+      "link_recipe": true,
+      "text": "A Gem Socket is a bauble that can be worn in the Body slot.$(br2)Activating a Gem Socket allows you to slot in an Arcane Gem. You always treat this gem as if you were holding it for the purposes of passive effects."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The following Arcane Gems have passive effects. Gems with toggles might need to be turned on before inserting before their passive effects take place.$(br2)$(l:arcanearchives:gems/slaughtergleam)Slaughtergleam$()$(br)$(l:arcanearchives:gems/murdergleam)Murdergleam$()$(br)$(l:arcanearchives:gems/agegleam)Agegleam$()$(br)$(l:arcanearchives:gems/switchgleam)Switchgleam$()$(br)$(l:arcanearchives:gems/salvegleam)Salvegleam$()$(br)$(l:arcanearchives:gems/mindspindle)Mindspindle$()$(br)$(l:arcanearchives:gems/elixirspindle)Elixirspindle$()$(br)$(l:arcanearchives:gems/phoenixway)Phoenixway$()$(br)$(l:arcanearchives:gems/stormway)Stormway$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:gemsocket",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:scintillating_inlay$(br)4 × minecraft:gold_nugget$(br)1 × minecraft:bowl$(br)1 × minecraft:leather$(br2)Output: 1 × arcanearchives:gemsocket",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

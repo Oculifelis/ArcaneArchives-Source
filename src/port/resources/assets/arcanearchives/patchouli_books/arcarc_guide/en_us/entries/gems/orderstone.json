@@ -1,0 +1,30 @@
+{
+  "name": "Orderstone",
+  "icon": "arcanearchives:orderstone",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:orderstone",
+      "link_recipe": true,
+      "text": "An Orderstone is an Arcane Gem formed from a pink-spectrum piece of $(l:arcanearchives:items/shaped_quartz)Shaped Radiant Quartz$() in an oval cut.$(br2)When activated, an Orderstone transforms certain blocks into a more orderly state.$(br2)To recharge a dun Orderstone, collect experience globes while holding the gem."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Transformations",
+      "text": "The following transformation sequences can be performed:$(br2)Sand -> Coarse Dirt -> Dirt -> Mycelium -> Podzol -> Grass Block$(br2)Gravel -> Cobblestone -> Stone$(br2)Mossy Cobblestone -> Cobblestone -> Stone"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Cracked Stone Bricks -> Stone Bricks -> Chiseled Stone Bricks$(br2)Mossy Stone Bricks -> Stone Bricks -> Chiseled Stone Bricks$(br2)Damaged Anvil -> Slightly Damaged Anvil -> Anvil$(br2)Furnace -> Lit Furnace"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:orderstone",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:pink_dye$(br)1 × minecraft:anvil$(br)30 × minecraft:oak_sign$(br2)Output: 1 × arcanearchives:orderstone",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

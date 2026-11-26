@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "arcanearchives:raw_quartz_cluster"
+  ],
+  "result": {
+    "id": "arcanearchives:raw_quartz"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "操纵权杖",
+  "icon": "arcanearchives:scepter_manipulation",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:scepter_manipulation",
+      "link_recipe": true,
+      "text": "操纵权杖用于修改某些奥术档案馆方块的属性。$(br2)以下方块与操纵权杖有交互：$(br)$(l:arcanearchives:blocks/radiant_chest)辉耀箱$()$(br)$(l:arcanearchives:blocks/radiant_tank)辉耀储罐$()$(br)$(l:arcanearchives:blocks/radiant_trove)辉耀宝库$()$(br)$(l:arcanearchives:blocks/brazier_hoarding)囤积火盆$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:scepter_manipulation",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:scepter_revelation$(br)1 × arcanearchives:shaped_quartz$(br2)Output: 1 × arcanearchives:scepter_manipulation",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

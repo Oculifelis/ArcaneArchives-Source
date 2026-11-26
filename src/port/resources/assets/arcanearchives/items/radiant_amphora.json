@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "arcanearchives:state",
+    "kind": "linked",
+    "on_true": {
+      "type": "minecraft:condition",
+      "property": "arcanearchives:state",
+      "kind": "empty_mode",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "arcanearchives:item/radiant_amphora_empty",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 16777215
+          },
+          {
+            "type": "arcanearchives:fluid"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "arcanearchives:item/radiant_amphora_fill",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": 16777215
+          },
+          {
+            "type": "arcanearchives:fluid"
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "arcanearchives:item/radiant_amphora_unlinked"
+    }
+  }
+}

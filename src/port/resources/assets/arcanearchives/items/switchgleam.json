@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "arcanearchives:state",
+    "kind": "dun",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "arcanearchives:item/gems/asscher/dun"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "arcanearchives:state",
+      "kind": "colourblind",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "arcanearchives:item/gems/accessibility/asscher/purple"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "arcanearchives:item/gems/asscher/purple"
+      }
+    }
+  }
+}

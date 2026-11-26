@@ -1,0 +1,43 @@
+{
+  "name": "Manifest",
+  "icon": "arcanearchives:manifest",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:manifest",
+      "link_recipe": true,
+      "text": "A Manifest lists all items stored within loaded Radiant Storage in one single list.$(br2)By hovering over a slot, you can get a list of each location that the item is stored at, including names of Radiant Chests. By clicking on the slot, you can track the locations of each of these items, drawing a line from your"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "current position to the target inventories (as long as a target inventory is in the same dimension).$(br2)Activating a tracked inventory container disables the line, as does hitting the $(ldquo)End Tracking$(rdquo) button at the bottom of the Manifest's interface."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can filter what items your Manifest displays by typing in the search bar. Right clicking the search bar clears the current term. You can also shift-click the search bar to copy your current JEI search term.$(br2)$(bold)Sorting Toggle:$() The first button toggles whether items are sorted by name or by quantity.$(br2)$(bold)Order Toggle:$() The second",
+      "title": "Search Bar:"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "button toggles whether items are sorted in ascending or descending order."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The third button toggles whether the search bar syncs with your JEI search term or not.",
+      "title": "JEI Sync:"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Items in non-Radiant storage can be added to the Manifest by attaching a $(l:arcanearchives:blocks/monitoring_crystal)Monitoring Crystal$() to its storage container.",
+      "title": "Monitoring Crystal"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:manifest",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × minecraft:paper$(br)1 × minecraft:black_dye$(br)2 × arcanearchives:radiant_dust$(br2)Output: 1 × arcanearchives:manifest",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

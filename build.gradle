@@ -1,0 +1,95 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+version = mod_version
+group = 'com.aranaira.arcanearchives'
+base { archivesName = 'arcanearchives-neoforge-26.1.2' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+sourceSets {
+    main { java.setSrcDirs(['src/port/java']); resources.setSrcDirs(['src/port/resources']) }
+}
+repositories { mavenCentral() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.fork = false }
+tasks.withType(Jar).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+jar { from('LICENSE'); from('CREDITS.md'); from('Guidebook_License.txt') }
+if (project.hasProperty('qa')) { sourceSets.main.java.srcDir('../qa/generated/neoforge-26.1.2') }
+neoForge {
+    version = loader_version
+    runs {
+        client {
+            client()
+            if(project.hasProperty('clientqa')){
+                systemProperty 'aa.clientqa','true'
+                gameDirectory = project.file('run-client-qa')
+                programArguments.addAll '--quickPlaySingleplayer','arcane-integrated-qa','--width','1280','--height','800'
+            }
+        }
+        server { server(); programArgument '--nogui'; systemProperty 'aa.clientqa',project.hasProperty('clientqa').toString(); gameDirectory = project.file(project.hasProperty('qa') ? 'run-qa' : 'run') }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'arcanearchives' }
+    }
+    mods { arcanearchives { sourceSet(sourceSets.main) } }
+}
+
+repositories { maven { url = uri('../tools/dependencies/maven') }; maven { url = 'https://maven.blamejared.com' } }
+dependencies { compileOnly('mezz.jei:jei-26.1.2-neoforge:29.47.0.111') { transitive = false }; if(project.hasProperty('integrations')) { runtimeOnly('mezz.jei:jei-26.1.2-neoforge:29.47.0.111') { transitive = false } } }
+repositories { maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } } }
+dependencies { if(file('../tools/dependencies/Jade-mc26.1-NeoForge-26.1.12.jar').isFile()) { compileOnly files('../tools/dependencies/Jade-mc26.1-NeoForge-26.1.12.jar') } else { compileOnly('maven.modrinth:jade:Pr1h4azo') { transitive = false } } }
+
+def prepareArcaneLaunch = { run ->
+    if(run.hasProperty('runConfig')) {
+        def config = run.runConfig.get()
+        def generator = run.class.classLoader.loadClass('net.minecraftforge.gradle.common.util.runs.RunConfigGenerator')
+        def rootsMethod = generator.declaredMethods.find { it.name == 'mapModClassesToGradle' }
+        rootsMethod.accessible = true
+        def roots = rootsMethod.invoke(null, [project,config] as Object[])
+        def tokensMethod = generator.declaredMethods.find { it.name == 'configureTokensLazy' }
+        tokensMethod.accessible = true
+        def tokens = tokensMethod.invoke(null, [project,config,roots,run.minecraftArtifacts,run.runtimeClasspathArtifacts] as Object[])
+        run.workingDir = file(config.workingDirectory)
+        run.args(config.args.collect { config.replace(tokens,it) })
+        run.jvmArgs(config.jvmArgs.collect { config.replace(tokens,it) })
+        if(config.client)run.jvmArgs(run.additionalClientArgs.get().collect { config.replace(tokens,it) })
+        config.environment.each { key,value -> run.environment(key,config.replace(tokens,value)) }
+        config.properties.each { key,value -> run.systemProperty(key,config.replace(tokens,value)) }
+        config.allSources.each { run.classpath(it.runtimeClasspath) }
+    }
+}
+tasks.register('exportClientLaunch') {
+    dependsOn { def run = tasks.named('runClient').get(); run.taskDependencies.getDependencies(run) }
+    doLast {
+        def run = tasks.named('runClient').get()
+        prepareArcaneLaunch(run)
+        def spec = [executable: run.javaLauncher.get().executablePath.asFile.absolutePath,
+                    jvmArgs: run.allJvmArgs + run.jvmArgs + run.jvmArgumentProviders.collectMany { it.asArguments().toList() },
+                    classpath: (run.hasProperty('classpathProvider') ? run.classpathProvider : run.classpath).asPath,
+                    mainClass: run.mainClass.get(), args: run.args,
+                    environment: (run.environment + (run.hasProperty('environmentProperty') ? run.environmentProperty.get() : [:])).findAll { key, value -> System.getenv(key) != value.toString() },
+                    directory: (run.hasProperty('gameDirectory') ? run.gameDirectory.get().asFile : run.workingDir).absolutePath]
+        file('build/client-launch.json').text = groovy.json.JsonOutput.toJson(spec)
+    }
+}
+tasks.register('exportServerLaunch') {
+    dependsOn { def run = tasks.named('runServer').get(); run.taskDependencies.getDependencies(run) }
+    doLast {
+        def run = tasks.named('runServer').get()
+        prepareArcaneLaunch(run)
+        def spec = [executable: run.javaLauncher.get().executablePath.asFile.absolutePath,
+                    jvmArgs: run.allJvmArgs + run.jvmArgs + run.jvmArgumentProviders.collectMany { it.asArguments().toList() },
+                    classpath: (run.hasProperty('classpathProvider') ? run.classpathProvider : run.classpath).asPath,
+                    mainClass: run.mainClass.get(), args: run.args,
+                    environment: (run.environment + (run.hasProperty('environmentProperty') ? run.environmentProperty.get() : [:])).findAll { key, value -> System.getenv(key) != value.toString() },
+                    directory: (run.hasProperty('gameDirectory') ? run.gameDirectory.get().asFile : run.workingDir).absolutePath]
+        file('build/server-launch.json').text = groovy.json.JsonOutput.toJson(spec)
+    }
+}
+tasks.register('exportCompilation') {
+    doLast {
+        def compile = tasks.named('compileJava').get()
+        def spec = [destination: compile.destinationDirectory.get().asFile.absolutePath,
+                    classpath: compile.classpath.asPath,
+                    sources: compile.source.files.collect { it.absolutePath },
+                    compilerArgs: compile.options.compilerArgs,
+                    source: compile.sourceCompatibility, target: compile.targetCompatibility]
+        file('build/compile-launch.json').text = groovy.json.JsonOutput.toJson(spec)
+    }
+}
+
+dependencies { compileOnly files('../tools/dependencies/thaumaturge-26.1.2-NeoForge-1.1.0.jar') }

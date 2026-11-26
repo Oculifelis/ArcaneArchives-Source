@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "arcanearchives:containment_field"
+    },
+    "title": {
+      "translate": "advancement.arcanearchives.containment_field"
+    },
+    "description": {
+      "translate": "advancement.arcanearchives.containment_field.desc"
+    }
+  },
+  "parent": "arcanearchives:scepter_manipulation",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "arcanearchives:containment_field"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "book"
+    ]
+  ]
+}

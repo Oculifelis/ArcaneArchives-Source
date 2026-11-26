@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aranaira.arcanearchives.mixin",
+  "mixins": [
+    "SlaughtergleamLootMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

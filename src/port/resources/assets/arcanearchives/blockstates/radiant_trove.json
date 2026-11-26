@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/radiant_trove"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/radiant_trove"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/radiant_trove",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/radiant_trove",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/radiant_trove"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/radiant_trove",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "辉明灯",
+  "icon": "arcanearchives:radiant_lantern",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:radiant_lantern",
+      "link_recipe": true,
+      "text": "辉明灯是一种光源。它们可以以任意方向放置，并且即使附着的方块被移除也不会掉落。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:radiant_lantern",
+      "text": "$(bold)Gemcutter recipe$()$(br2)2 × arcanearchives:raw_quartz$(br)1 × minecraft:gold_nugget$(br2)Output: 4 × arcanearchives:radiant_lantern",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

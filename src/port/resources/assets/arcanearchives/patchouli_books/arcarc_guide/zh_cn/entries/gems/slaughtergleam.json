@@ -1,0 +1,25 @@
+{
+  "name": "屠宰之微光",
+  "icon": "arcanearchives:slaughtergleam",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:slaughtergleam",
+      "link_recipe": true,
+      "text": "屠宰之微光是一种奥术宝石，由红色光谱的$(l:arcanearchives:items/shaped_quartz)刻面辉耀石英$()以阿斯切切割而成。$(br2)手持时，你的攻击被视为具有一级抢夺附魔。如果你使用的武器已有抢夺附魔，则其等级增加一级"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "。$(br2)要为耗尽的屠宰之微光充能，在物品栏中有金粒时激活宝石。金粒被消耗。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:slaughtergleam",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:red_dye$(br)1 × minecraft:diamond$(br)2 × minecraft:gold_ingot$(br)2 × minecraft:lapis_block$(br2)Output: 1 × arcanearchives:slaughtergleam",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

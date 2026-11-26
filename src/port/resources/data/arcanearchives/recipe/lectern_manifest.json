@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "SWS",
+    "S S"
+  ],
+  "key": {
+    "M": "arcanearchives:manifest",
+    "S": "minecraft:stick",
+    "W": "#minecraft:planks"
+  },
+  "result": {
+    "id": "arcanearchives:lectern_manifest"
+  }
+}

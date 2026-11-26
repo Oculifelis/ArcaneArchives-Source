@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="arcanearchives"
+version="0.2.2-port.8"
+displayName="Arcane Archives: Unsealed"
+authors="AranaiRa, Noobanidus, Lirelent, Lenyeto, kappa_maintainer; port by Oculifelis"
+description="A magical method for modular storage and automation. Unofficial port."
+
+[[dependencies.arcanearchives]]
+modId="thaumaturge"
+type="optional"
+versionRange="[1.1.0,2)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.arcanearchives]]
+modId="neoforge"
+type="required"
+versionRange="[26.1.2.122,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.arcanearchives]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2]"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config="arcanearchives.mixins.json"

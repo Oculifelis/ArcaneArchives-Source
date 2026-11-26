@@ -1,0 +1,22 @@
+{
+  "name": "Raw Quartz Cluster",
+  "icon": "arcanearchives:raw_quartz_cluster",
+  "advancement": "arcanearchives:raw_quartz",
+  "category": "arcanearchives:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:raw_quartz_cluster",
+      "link_recipe": true,
+      "text": "Raw Quartz Clusters are a light source. They can be collected with a pick bearing the Silk Touch enchantment; otherwise breaking a Raw Quartz Cluster will return a piece of $(l:arcanearchives:items/raw_quartz)Raw Radiant Quartz$().$(br2)$(item)Thaumaturge$() Raw Quartz Clusters can be used as an infusion stabilizer.",
+      "flag": "mod:thaumaturge"
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": [
+        "arcanearchives:blocks/radiant_resonator"
+      ],
+      "text": "Raw Quartz Clusters are created over time on top of a $(l:arcanearchives:blocks/radiant_resonator)Radiant Resonator$()."
+    }
+  ]
+}

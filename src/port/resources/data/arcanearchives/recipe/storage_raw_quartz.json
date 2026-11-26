@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz",
+    "arcanearchives:raw_quartz"
+  ],
+  "result": {
+    "id": "arcanearchives:storage_raw_quartz"
+  }
+}

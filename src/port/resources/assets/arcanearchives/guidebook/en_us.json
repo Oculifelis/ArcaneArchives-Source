@@ -1,0 +1,2965 @@
+[
+  {
+    "id": "blocks/brazier_hoarding",
+    "name": "Brazier of Hoarding",
+    "category": "blocks",
+    "icon": "arcanearchives:brazier_of_hoarding",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Brazier of Hoarding is an organization device that can act as a drop-off point to store items in your Network. Braziers of Hoarding are also a light source.\n\n",
+        "images": [],
+        "item": "arcanearchives:brazier_of_hoarding",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Trove\n\nAny items used on, or dropped on top of, a Brazier of Hoarding will be transported to appropriate storage, starting with Radiant Troves. If no appropriate Radiant Troves exist in your network, items will be placed in Radiant Chests, starting with chests that already contain an instance of the item.\n\nIf no storage can be found, items are ejected from the Brazier of Hoarding.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Manipulation\n\nIf you right click a brazier with a Scepter of Manipulation, you can set the maximum radius in which it will search for Radiant storage to insert items into, as well as whether the Brazier will fill any located device in your network, or only devices that you placed personally. You can also enable an option to visualize the size of the insertion area.\n\n",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Shulker Box\n\nIf you right click a shulker box onto a Brazier of Hoarding, its contents will be deposited into the Brazier instead.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Quark\n\nIf you have an item set as a Quark favorite, it cannot be inserted into a Brazier of Hoarding by right clicking.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Thaumaturge\n\nBraziers of Hoarding can be used as an infusion stabilizer.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:brazier_of_hoarding",
+        "crafting": [],
+        "gemcutting": {
+          "id": "brazier_of_hoarding",
+          "output": {
+            "item": "arcanearchives:brazier_of_hoarding",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 4
+            },
+            {
+              "item": "minecraft:coal",
+              "count": 8
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 2
+            },
+            {
+              "tag": "minecraft:logs",
+              "count": 3
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/gemcutters_table",
+    "name": "Gem Cutter's Table",
+    "category": "blocks",
+    "icon": "arcanearchives:gemcutters_table",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Gem Cutter's Table is a crafting station used to refine Raw Radiant Quartz into Shaped Radiant Quartz. Items that require finesse to craft are generally made on a Gem Cutter's Table.\n\n",
+        "images": [],
+        "item": "arcanearchives:gemcutters_table",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Unlike conventional crafting, there are no shape requirements for a Gem Cutter's Table recipe. After selecting the desired item you can simply remove it from the output slot if enough ingredients are present.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Brazier of Hoarding\n\nThe internal inventory of a Gem Cutter's Table can be filled by a Brazier of Hoarding. Slots with existing items will be filled, but new items will never be added to empty slots.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/lectern_manifest",
+    "name": "Manifest Lectern",
+    "category": "blocks",
+    "icon": "arcanearchives:lectern_manifest",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Manifest Lectern acts as a Manifest does, save that it is placed in the world rather than an item you carry with you.\n\nWhen using the item tracking feature, a Manifest Lectern will draw lines from you to the target inventories, rather than from itself to the target inventories.",
+        "images": [],
+        "item": "arcanearchives:lectern_manifest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "Manifest Lecterns can be crafted conventionally.",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:lectern_manifest",
+            "grid": [
+              null,
+              "arcanearchives:manifest",
+              null,
+              "minecraft:stick",
+              "#minecraft:planks",
+              "minecraft:stick",
+              "minecraft:stick",
+              null,
+              "minecraft:stick"
+            ],
+            "output": "arcanearchives:lectern_manifest",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nI remember the awe I felt in my first days as an apprentice at the Eternal University. The soaring, gold-domed towers, perpetual twilit sky abuzz with luminous wisps, the impossibly large spaces contained within far too small buildings.\n\nAll of that wonder came crashing down as soon as I attended my first lesson. The master stood above us speaking from a dark wooden podium with golden accents,",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "bellowing to us about responsibility, diligence, and the importance of authority.\n\nHis words drained all the wonder from the place.\n\nSome of my peers left the University after the speech. Some disregarded his words and were lost. Most, (including myself, to my shame), paid heed to his words and became diligent little cogs in the great research machine.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "I know not if he used sorcery to emphasize his lesson to us, or if he was simply an old, self-important blowhard. I often find myself wondering about it when my mind is otherwise unoccupied.\n\nA few years back, the Magistocracy ordered a curriculum review. It was decided that the method of teaching be changed from a master speaking to a great collection of students to a single master and apprentice, eliminating the need for those",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "damned podia.\n\nI took one back with me to my Sanctum, and I take great pleasure in consigning it to the fate of a writing desk in some forgotten corner.\n\nA good riddance, I say. To the podia, the old masters, and everything their close-minded reign at the University brought forth.\n\nPersonal musings of Sharaveda\n...1663, Summer's End",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/monitoring_crystal",
+    "name": "Monitoring Crystal",
+    "category": "blocks",
+    "icon": "arcanearchives:monitoring_crystal",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Monitoring Crystal can be used to add the tracking capabilities of a Radiant storage container to a non-Arcane Archives inventory, such as a vanilla chest. It is also a light source.",
+        "images": [],
+        "item": "arcanearchives:monitoring_crystal",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Manifest\n\nThe contents of inventories with an attached Monitoring Crystal can be seen and tracked with a Manifest as though they were a Radiant storage container. You cannot attach a Monitoring Crystal to Radiant Chests, Tanks, or Troves; these devices appear in your Manifest automatically.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation\n\nUsing a Scepter of Revelation on a Monitoring Crystal will return what direction the Monitoring Crystal is pointing towards.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:monitoring_crystal",
+        "crafting": [],
+        "gemcutting": {
+          "id": "monitoring_crystal",
+          "output": {
+            "item": "arcanearchives:monitoring_crystal",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 2
+            },
+            {
+              "item": "minecraft:stick",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nThe Creed of Branding\n\nThe promise and distinction you have displayed have earned you the right to call yourself a Master of the Eternal University. As of this moment, you are born anew, free of the shackles of Apprenticeship.\n\nYour forehead shall bear the Brand of Monitoring, and with it we shall watch you. Observation breeds honesty,",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "and honesty breeds Temperance.\n\nEnlightenment is the right of the strong, and no strength can be found in intemperate acts.\n\nTrust in the judgment of the Quadrate, and the Magistocracy will trust in your works.\n\nBask in the light of your Enlightenment, Master, and walk ever on the path of Wisdom.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_chest",
+    "name": "Radiant Chest",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_chest",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Radiant Chests are a storage container with as many slots as a vanilla double chest in a single block. Each slot of a Radiant Chest can store up to 256 items instead of the stored item's normal stack limit.\n\nAt the bottom of a Radiant Chest's interface, you can give it a name to help keep your",
+        "images": [],
+        "item": "arcanearchives:radiant_chest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "storage organized. Radiant Chests are also a light source.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Manifest\n\nItems stored in Radiant Chests appear on a Manifest as long as the Chest's chunk is loaded.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Manipulation\n\nUsing a Scepter of Manipulation on a Radiant Chest while holding an item in the other hand allows you to label the chest with the held item. The item is not consumed.\n\nTo clear the item, sneak and activate the chest while holding the Scepter of Manipulation with your main hand and nothing in your off hand.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation\n\nUsing a Scepter of Revelation on a Radiant Chest will return the chest's name, and how many slots of its inventory are available.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Brazier of Hoarding\n\nIn the lower right corner of a Radiant Chest's interface, you can choose how Braziers of Hoarding route items to the Chest. By default, a Brazier will be capable of routing any item to the chest; if the checkbox is ticked on, only items that already exist within the chest can be routed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Redstone Comparator\n\nWhen monitored with a Redstone Comparator, a Radiant Chest outputs a signal based on how full it is (in total items, rather than number of slots filled).",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Raw Radiant Quartz\n\nRadiant Chests can be crafted by using a piece of Raw Radiant Quartz on a chest while sneaking. Any items inside the chest will be imported, and if used on a double vanilla chest, both chests' inventories will be imported into the new Radiant Chest.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "Radiant Chests can be crafted conventionally.",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:radiant_chest1",
+            "grid": [
+              "#minecraft:planks",
+              "#minecraft:planks",
+              "#minecraft:planks",
+              "#minecraft:planks",
+              "arcanearchives:raw_quartz",
+              "#minecraft:planks",
+              "#minecraft:planks",
+              "#minecraft:planks",
+              "#minecraft:planks"
+            ],
+            "output": "arcanearchives:radiant_chest",
+            "count": 1
+          },
+          {
+            "id": "arcanearchives:radiant_chest2",
+            "grid": [
+              "arcanearchives:raw_quartz",
+              "minecraft:chest",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "output": "arcanearchives:radiant_chest",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nUpon further examination, the glowing crystalline substance I was imparted with seems to have spatial (temporal?) distortion properties. Further research is required; I have an idea I wish to test out.\n\nI constructed a frame out of this crystalline substance. Items placed within the frame only seem to be visibleand, indeed, existent, if my instruments are to be believed from certain angles of view.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "I tried to attach wooden panels to the frame to keep the contents within, but they too were subject to this strange spatial distortion.\n\nReinforcing the wood with a lacquer ensorcelled with the Stalwart Oak Abjuration seems to prevent the panels from being affected by these distortions.\n\nIt appears my opinions on the usefulness of the Stalwart Oak Abjuration compared to Infused Wood were incorrect. I believe",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "I owe Etrea a drink.\n\nResearch Journal of Sharaveda\n...1665, Autumn's Birth",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_crafting_table",
+    "name": "Radiant Crafting Table",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_crafting_table",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Radiant Crafting Table acts as a conventional crafting table, except items are not dropped when you leave the interface. Radiant Crafting Tables are also a light source.\n\nAfter crafting an item, you can click on one of the slots on the right side of the interface to save the recipe. If enough",
+        "images": [],
+        "item": "arcanearchives:radiant_crafting_table",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "items are present in your inventory, clicking on a slot with a saved recipe crafts the item without requiring you to set items on the crafting grid. Shift clicking clears the recipe in a slot.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation\n\nUsing a Scepter of Revelation on a Radiant Crafting Table will return what items are present in the crafting grid.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Raw Radiant Quartz\n\nRadiant Crafting Tables can be crafted by using a piece of Raw Radiant Quartz on a vanilla crafting table while sneaking.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "Radiant Crafting Tables can be crafted conventionally.",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:radiant_crafting_table",
+            "grid": [
+              "arcanearchives:raw_quartz",
+              "minecraft:crafting_table",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "output": "arcanearchives:radiant_crafting_table",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_lantern",
+    "name": "Radiant Lantern",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_lantern",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Radiant Lanterns are a light source. They can be placed in any orientation, and will not pop off if the block they're attached to is removed.",
+        "images": [],
+        "item": "arcanearchives:radiant_lantern",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_lantern",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_lantern",
+          "output": {
+            "item": "arcanearchives:radiant_lantern",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:raw_quartz",
+              "count": 2
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_resonator",
+    "name": "Radiant Resonator",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_resonator",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Radiant Resonator produces a cluster of Raw Radiant Quartz in the block above itself once every five minutes. Once Quartz is produced, the process halts until the block above the Resonator is cleared.\n\n",
+        "images": [],
+        "item": "arcanearchives:radiant_resonator",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "You can only place up to three Radiant Resonators. Any further Resonators you attempt to place will pop off, and any Resonators placed by automated means will destroy themselves.\n\nRadiant Resonators only run while you're online, even if the chunk is loaded.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation\n\nUsing a Scepter of Revelation on a Radiant Resonator will return its current process, and whether it is running or not.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Redstone Comparator\n\nWhen monitored with a Redstone Comparator, a Radiant Resonator outputs a signal based on its progress towards creating a new Radiant Quartz Cluster.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "Radiant Resonators can be crafted conventionally.",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:radiant_resonator",
+            "grid": [
+              "minecraft:gold_ingot",
+              "minecraft:iron_bars",
+              "minecraft:gold_ingot",
+              "#minecraft:logs",
+              "minecraft:water_bucket",
+              "#minecraft:logs",
+              "#minecraft:logs",
+              null,
+              "#minecraft:logs"
+            ],
+            "output": "arcanearchives:radiant_resonator",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "image",
+        "text": "Lore\n\nFound in the notes of Sharaveda, Deceased\n\n",
+        "images": [
+          "arcanearchives:textures/gui/guidebook/lore_resonator.png"
+        ],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "...Annotation made by Traylin, former Apprentice of the deceased\n\n...1672, Winter's Birth",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_tank",
+    "name": "Radiant Tank",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_tank",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Radiant Tank is a storage container that can contain up to 16 buckets of a single type of fluid. Using a Radiant Tank on a fluid inventory will transfer the target's fluid inventory into the held Radiant Tank.",
+        "images": [],
+        "item": "arcanearchives:radiant_tank",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "A Radiant Tank's storage capacity can be upgraded three times, using a Scepter of Manipulation. The first upgrade increases storage to 3x base capacity, the second to 6x, and the third to 10x.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Containment Field\n\nWhen used as an upgrade, a Containment Field causes fluid added to the Tank in excess of its maximum capacity is destroyed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Amphora\n\nRadiant Amphorae can fill and empty a Radiant Tank from anywhere, as long as the tank is in a loaded chunk.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation\n\nUsing a Scepter of Revelation on a Radiant Tank will return what type of fluid is stored, its current and maximum capacity, and how many upgrades have been installed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Manipulation\n\nUsing a Scepter of Manipulation on a Radiant Tank opens a GUI that allows you to see and modify what upgrades are installed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Redstone Comparator\n\nWhen monitored with a Redstone Comparator, a Radiant Tank outputs a signal based on how full it is.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_tank",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_tank",
+          "output": {
+            "item": "arcanearchives:radiant_tank",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 2
+            },
+            {
+              "item": "arcanearchives:containment_field",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_trove",
+    "name": "Radiant Trove",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_trove",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Radiant Trove is a storage container that can contain up to 1024 stacks of a single type of item.\n\nA Radiant Trove's storage capacity can be upgraded three times, using a Scepter of Manipulation. The first upgrade increases storage to 3x base capacity, the second to 6x, and the third to 10x.",
+        "images": [],
+        "item": "arcanearchives:radiant_trove",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Containment Field\n\nWhen used as an upgrade, a Containment Field causes items added to the Trove in excess of its maximum capacity are destroyed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Key\n\nWhen used as an upgrade, a Radiant Key locks the type of item in the trove. Once the trove reaches 0 stored items, it will still reserve its storage for the type of item it once held.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation\n\nUsing a Scepter of Revelation on a Radiant Trove will return what type of item is stored, its current and maximum capacity, and how many upgrades have been installed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Manipulation\n\nUsing a Scepter of Manipulation on a Radiant Trove opens a GUI that allows you to see and modify what upgrades are installed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Redstone Comparator\n\nWhen monitored with a Redstone Comparator, a Radiant Trove outputs a signal based on how full it is.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_trove",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_trove",
+          "output": {
+            "item": "arcanearchives:radiant_trove",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 2
+            },
+            {
+              "item": "arcanearchives:material_interface",
+              "count": 1
+            },
+            {
+              "item": "arcanearchives:radiant_chest",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/raw_quartz_cluster",
+    "name": "Raw Quartz Cluster",
+    "category": "blocks",
+    "icon": "arcanearchives:raw_quartz_cluster",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Raw Quartz Clusters are a light source. They can be collected with a pick bearing the Silk Touch enchantment; otherwise breaking a Raw Quartz Cluster will return a piece of Raw Radiant Quartz.\n\nThaumaturge Raw Quartz Clusters can be used as an infusion stabilizer.",
+        "images": [],
+        "item": "arcanearchives:raw_quartz_cluster",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "relations",
+        "text": "Raw Quartz Clusters are created over time on top of a Radiant Resonator.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": [
+          "arcanearchives:blocks/radiant_resonator"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "concepts/astral_sorcery",
+    "name": "Astral Sorcery Compatibility",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Lightwell\n\n\n\nRaw Radiant Quartz Raw Radiant Quartz generates Liquid Starlight. It is long lasting, but low production.\n\nShaped Radiant Quartz Shaped Radiant Quartz also generates Liquid Starlight. It is a bit more efficient than Raw Radiant Quartz.",
+        "images": [],
+        "item": "astralsorcery:lightwell",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Rivertear\n\nRivertears generate water at about 2 buckets per tick. It is effectively infinite, but due to technical limits there is a ridiculously small chance of shattering.\n\nMountaintears generate lava at a moderate rate. It is effectively infinite, but due to technical limits there is a ridiculously small chance of shattering.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/botania",
+    "name": "Botania Compatibility",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Petal Apothecary\n\n\n\nRivertear If you have a Rivertear somewhere in your inventory (or slotted in a Gem Socket), right clicking a Petal Apothecary will refill it with water.",
+        "images": [],
+        "item": "botania:apothecary_default",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/networks",
+    "name": "Networks",
+    "category": "concepts",
+    "icon": "arcanearchives:manifest",
+    "pages": [
+      {
+        "type": "text",
+        "text": "Every Arcane Archives block you place becomes part of a network. Each block in the network can be accessed by certain items and devices, and ultimately ties back to you. The creation of a network is automatic, and you can only ever belong to one network.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Letter of Invitation() By using a Letter of Invitation given to you by another player, you can form a hybrid network with that player, pooling your resources together. Everything in both players' networks is mutually accessible.\n\nLetter of Resignation By using a Letter of Resignation, you can break from a hybrid network. All blocks that you placed return to your individual network.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Manifest()Manifests display the contents of all inventories that are part of the network you belong to.\n\nWrit of Expulsion By using a Writ of Expulsion named on an anvil, you can force a player in a hybrid network to leave the network.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/potion_core",
+    "name": "Potion Core Compatibility",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Effects\n\nCleansegleam A Cleansegleam applies the Antidote effect when used.",
+        "images": [],
+        "item": "minecraft:potion",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/quark",
+    "name": "Quark Compatibility",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Inventory Management\n\n\n\nRadiant Chest Radiant Chests make use of Quark's inventory search bar, and its Sort, Deposit, Merge, Extract, and Restock buttons.",
+        "images": [],
+        "item": "minecraft:chest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Brazier of Hoarding Items marked as favorites will not be deposited into a Brazier of Hoarding on right click. Favorited items can still be inserted into a Brazier of Hoarding when thrown.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/thaumcraft",
+    "name": "Thaumaturge Compatibility",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "text",
+        "text": "Aspects\n\nThe original Arcane Archives aspect assignments are available to Thaumaturge scans and alchemy. Radiant Quartz supplies Praecantatio.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "spotlight",
+        "text": "Crucible\n\n\n\nRivertear If you have a Rivertear somewhere in your inventory (or slotted in a Gem Socket), right clicking a Crucible will refill it with water.",
+        "images": [],
+        "item": "thaumaturge:crucible",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "spotlight",
+        "text": "Infusion\n\nRaw Quartz Clusters and Braziers of Hoarding stabilize Thaumaturge infusion. Place matching blocks in mirrored pairs at the same height around the matrix. A Cluster pair supplies 0.15 stability and a Brazier pair 0.2 before Thaumaturge diminishing returns; unmatched blocks reduce stability.",
+        "images": [],
+        "item": "thaumaturge:infusion_matrix",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/agegleam",
+    "name": "Agegleam",
+    "category": "gems",
+    "icon": "arcanearchives:agegleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "An Agegleam is an Arcane Gem formed from a green-spectrum piece of Shaped Radiant Quartz in an asscher cut.\n\nWhen activated, the amount of time until nearby animals grow up will be significantly reduced, at the cost of charge for each animal affected.",
+        "images": [],
+        "item": "arcanearchives:agegleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "To recharge a dun Agegleam, simply hold onto it. It regains one point of charge every three minutes.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:agegleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "agegleam",
+          "output": {
+            "item": "arcanearchives:agegleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:green_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:wheat",
+              "count": 9
+            },
+            {
+              "item": "minecraft:carrot",
+              "count": 9
+            },
+            {
+              "item": "minecraft:wheat_seeds",
+              "count": 9
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/arcane_gems",
+    "name": "Arcane Gems",
+    "category": "gems",
+    "icon": "arcanearchives:slaughtergleam",
+    "pages": [
+      {
+        "type": "text",
+        "text": "Arcane Gems are specially cut pieces of Radiant Quartz, modified to only glow with a specific color of light. Each gem has unique magical properties described further on their individual pages.\n\nPlease be aware that all Arcane Gem recipes are temporary. Arcane Gems will not be craftable on the Gem Cutter's Table in the future.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "The shape of an Arcane Gem is an indicator of the nature of its function.\n\nAsscher cut: Gems with an Asscher cut generally affect entities in some way.\n\nOval cut: Gems with an Oval cut generally affect blocks or items in some way.\n\nPampel cut: Gems with a Pampel cut have strange or difficult to categorize effects.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Pendeloque cut: Gems with a Pendeloque cut generally affect fluids in some way.\n\nTrillion cut: Gems with a Trillion cut generally affect energy in some way.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/cleansegleam",
+    "name": "Cleansegleam",
+    "category": "gems",
+    "icon": "arcanearchives:cleansegleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Cleansegleam is an Arcane Gem formed from a blue-spectrum piece of Shaped Radiant Quartz in an asscher cut.\n\nWhen activated, a Cleansegleam will purge the user of Hunger, Nausea, and Poison at the cost of a point of charge.",
+        "images": [],
+        "item": "arcanearchives:cleansegleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "If activated while sneaking, you can attempt to all targets within three blocks of you of these effects instead.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Potion Core\n\nAny target affected by a Cleansegleam will also be immunized from poison for 60 seconds.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "To recharge a dun Cleansegleam, activate the gem while you have a bucket of milk in your inventory. The milk is consumed, and the bucket is returned. Alternatively, if you have a Radiant Amphora linked to a Radiant Tank containing milk, the milk is deducted from the tank directly.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:cleansegleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "cleansegleam",
+          "output": {
+            "item": "arcanearchives:cleansegleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blue_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:poisonous_potato",
+              "count": 1
+            },
+            {
+              "item": "minecraft:milk_bucket",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/elixirspindle",
+    "name": "Elixirspindle",
+    "category": "gems",
+    "icon": "arcanearchives:elixirspindle",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "An Elixirspindle is an Arcane Gem formed from a purple-spectrum piece of Shaped Radiant Quartz in a pampel cut.\n\nWhen held, you can use potions, splash potions, and lingering potions without consuming them at the cost of one point of charge. Additionally, if you use a potion you do not need to",
+        "images": [],
+        "item": "arcanearchives:elixirspindle",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "drink it and instead benefit from its effects immediately.\n\nTo recharge a dun Elixirspindle, activate the gem while you have nether wart in your inventory. Five pieces of nether wart are necessary to fully refill the gem, and if you have less than five pieces the gem will only be partially recharged. The nether wart is consumed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:elixirspindle",
+        "crafting": [],
+        "gemcutting": {
+          "id": "elixirspindle",
+          "output": {
+            "item": "arcanearchives:elixirspindle",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:purple_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:brewing_stand",
+              "count": 1
+            },
+            {
+              "item": "minecraft:emerald",
+              "count": 2
+            },
+            {
+              "item": "minecraft:redstone",
+              "count": 4
+            },
+            {
+              "item": "minecraft:glowstone_dust",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/mindspindle",
+    "name": "Mindspindle",
+    "category": "gems",
+    "icon": "arcanearchives:mindspindle",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Mindspindle is an Arcane Gem formed from a green-spectrum piece of Shaped Radiant Quartz in a pampel cut.\n\nWhen held, a Mindspindle magnifies the amount of experience contained within experience globes by 50%. It loses one point of charge for each experience point amplified, and can affect an",
+        "images": [],
+        "item": "arcanearchives:mindspindle",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": " un-amplified total of 800xp before needing to be recharged.\n\nIf you come into contact with a very large number of experience globes while holding a Mindspindle, you can absorb their essence instantly, instead of needing to wait for each globe to be picked up in sequence.\n\nTo recharge a dun Mindspindle, activate the gem while you have a book in your inventory. The book is consumed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:mindspindle",
+        "crafting": [],
+        "gemcutting": {
+          "id": "mindspindle",
+          "output": {
+            "item": "arcanearchives:mindspindle",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:green_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:enchanted_book",
+              "count": 1
+            },
+            {
+              "item": "minecraft:emerald",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/mountaintear",
+    "name": "Mountaintear",
+    "category": "gems",
+    "icon": "arcanearchives:mountaintear",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Mountaintear is an Arcane Gem formed from an orange-spectrum piece of Shaped Radiant Quartz in a pendeloque cut.\n\nWhen activated, a Mountaintear will conjure a block of lava at a distance of up to 40 blocks at the cost of one point of charge.",
+        "images": [],
+        "item": "arcanearchives:mountaintear",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "To recharge a dun Mountaintear, toss it in a block of lava.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Astral Sorcery Lightwell\n\nWhen placed in a Lightwell with access to the sky, a Mountaintear generates lava at a slow rate. While it's possible for a Mountaintear to shatter, the chances of shattering are astronomically unlikely. For all intents and purposes, a Mountaintear lasts indefinitely unless its Lightwell is broken. Once placed in a Lightwell, a Mountaintear cannot be retrieved.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:mountaintear",
+        "crafting": [],
+        "gemcutting": {
+          "id": "mountaintear",
+          "output": {
+            "item": "arcanearchives:mountaintear",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:orange_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:magma_block",
+              "count": 4
+            },
+            {
+              "item": "minecraft:lava_bucket",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/munchstone",
+    "name": "Munchstone",
+    "category": "gems",
+    "icon": "arcanearchives:munchstone",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Munchstone is an Arcane Gem formed from a black-spectrum piece of Shaped Radiant Quartz in an oval cut.\n\nWhen activated, a Munchstone allows you to consume plant-based blocks to restore your hunger and saturation. Charge is consumed for each point of hunger and each point of saturation recovered.",
+        "images": [],
+        "item": "arcanearchives:munchstone",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Please note that the Munchstone devours blocks that are in the world, it does not give you the idea to eat blocks that are in your inventory like conventional food.\n\nNotably, you can use a Munchstone even if your stomach is full.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "To recharge a dun Munchstone, activate the gem while you have bonemeal in your inventory. Five pieces of bonemeal are necessary to fully refill the gem, and if you have less than five pieces the gem will only be partially recharged. The bonemeal is consumed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:munchstone",
+        "crafting": [],
+        "gemcutting": {
+          "id": "munchstone",
+          "output": {
+            "item": "arcanearchives:munchstone",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:black_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:cake",
+              "count": 1
+            },
+            {
+              "item": "minecraft:glistering_melon_slice",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/murdergleam",
+    "name": "Murdergleam",
+    "category": "gems",
+    "icon": "arcanearchives:murdergleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Murdergleam is an Arcane Gem formed from a yellow-spectrum piece of Shaped Radiant Quartz in an asscher cut.\n\nWhen toggled on, a Murdergleam guarantees that all of your attacks will be critical hits. Each attack drains a point of charge (even attacks that deal no damage due to attacking too",
+        "images": [],
+        "item": "arcanearchives:murdergleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "quickly). The gem can be toggled on or off by left clicking.\n\nWhen a Murdergleam runs out of charge, it automatically toggles itself off. Likewise, when it reaches full charge, it automatically toggles itself on.\n\nTo recharge a dun Murdergleam, land traditional critical hits while the gem is toggled off.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:murdergleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "murdergleam",
+          "output": {
+            "item": "arcanearchives:murdergleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:yellow_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blaze_powder",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/orderstone",
+    "name": "Orderstone",
+    "category": "gems",
+    "icon": "arcanearchives:orderstone",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "An Orderstone is an Arcane Gem formed from a pink-spectrum piece of Shaped Radiant Quartz in an oval cut.\n\nWhen activated, an Orderstone transforms certain blocks into a more orderly state.\n\nTo recharge a dun Orderstone, collect experience globes while holding the gem.",
+        "images": [],
+        "item": "arcanearchives:orderstone",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Transformations\n\nThe following transformation sequences can be performed:\n\nSand -> Coarse Dirt -> Dirt -> Mycelium -> Podzol -> Grass Block\n\nGravel -> Cobblestone -> Stone\n\nMossy Cobblestone -> Cobblestone -> Stone",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Cracked Stone Bricks -> Stone Bricks -> Chiseled Stone Bricks\n\nMossy Stone Bricks -> Stone Bricks -> Chiseled Stone Bricks\n\nDamaged Anvil -> Slightly Damaged Anvil -> Anvil\n\nFurnace -> Lit Furnace",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:orderstone",
+        "crafting": [],
+        "gemcutting": {
+          "id": "orderstone",
+          "output": {
+            "item": "arcanearchives:orderstone",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:pink_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:anvil",
+              "count": 1
+            },
+            {
+              "item": "minecraft:oak_sign",
+              "count": 30
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/parchtear",
+    "name": "Parchtear",
+    "category": "gems",
+    "icon": "arcanearchives:parchtear",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Parchtear is an Arcane Gem formed from a black-spectrum piece of Shaped Radiant Quartz in a pendeloque cut.\n\nWhen activated, the Parchtear destroys a radius 1 cuboid area of fluid. If you are sneaking, it instead destroys a single block of fluid. Each fluid block destroyed consumes a point of charge.\n\nOnce fluid has been destroyed, other fluid is blocked from flowing into the same space for ten seconds.\n\nTo recharge a dun Parchtear, place it in the bucket voiding slot of a Devouring Charm.",
+        "images": [],
+        "item": "arcanearchives:parchtear",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:parchtear",
+        "crafting": [],
+        "gemcutting": {
+          "id": "parchtear",
+          "output": {
+            "item": "arcanearchives:parchtear",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:black_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:terracotta",
+              "count": 4
+            },
+            {
+              "item": "minecraft:dead_bush",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/phoenixway",
+    "name": "Phoenixway",
+    "category": "gems",
+    "icon": "arcanearchives:phoenixway",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Phoenixway is an Arcane Gem formed from an orange-spectrum piece of Shaped Radiant Quartz in a trillion cut.\n\nWhen activated, a Phoenixway will light a fire at a distance of up to 40 blocks at the cost of one point of charge.\n\nIf you're about to take fire",
+        "images": [],
+        "item": "arcanearchives:phoenixway",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "damage while holding a Phoenixway, it will block the damage and grant 30 seconds of Fire Resistance at the cost of twelve points of charge.\n\nTo recharge a dun Phoenixway, activate the gem while you have gunpowder in your inventory. Three pieces of gunpowder are necessary to fully refill the gem, and if you have less than three pieces the gem will only be partially recharged. The gunpowder is consumed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:phoenixway",
+        "crafting": [],
+        "gemcutting": {
+          "id": "phoenixway",
+          "output": {
+            "item": "arcanearchives:phoenixway",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blaze_powder",
+              "count": 4
+            },
+            {
+              "item": "minecraft:coal",
+              "count": 4
+            },
+            {
+              "item": "minecraft:flint_and_steel",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/recharging_gems",
+    "name": "Recharging Arcane Gems",
+    "category": "gems",
+    "icon": "arcanearchives:salvegleam",
+    "pages": [
+      {
+        "type": "text",
+        "text": "Most Arcane Gems have an internal reservoir of light, called charge. Once a gem's charge runs out, it becomes dun and cannot be used until recharged. When a gem goes dun, you can attempt to recharge it, usually by activating the dun gem while holding it. Each gem has a unique method of recharging noted on its individual page.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Gem Socket\n\nGems contained within a Gem Socket will attempt to recharge themselves once upon going dun.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/rivertear",
+    "name": "Rivertear",
+    "category": "gems",
+    "icon": "arcanearchives:rivertear",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Rivertear is an Arcane Gem formed from a blue-spectrum piece of Shaped Radiant Quartz in a pendeloque cut.\n\nWhen activated, a Rivertear will conjure a block of water at a distance of up to 40 blocks at the cost of one point of charge.\n\nTo recharge a dun Rivertear,",
+        "images": [],
+        "item": "arcanearchives:rivertear",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "toss it in a block of water.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Astral Sorcery Lightwell\n\nWhen placed in a Lightwell with access to the sky, a Rivertear generates water at an extremely rapid rate. While it's possible for a Rivertear to shatter, the chances of shattering are astronomically unlikely. For all intents and purposes, a Rivertear lasts indefinitely unless its Lightwell is broken. Once placed in a Lightwell, a Rivertear cannot be retrieved.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Botania Petal Apothecary\n\nIf you have a Rivertear somewhere in your inventory (or slotted in a Gem Socket), right clicking on a Petal Apothecary will refill it with water.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Thaumaturge Crucible\n\nIf you have a Rivertear somewhere in your inventory (or slotted in a Gem Socket), right clicking on a Crucible will refill it with water.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:rivertear",
+        "crafting": [],
+        "gemcutting": {
+          "id": "rivertear",
+          "output": {
+            "item": "arcanearchives:rivertear",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:sugar",
+              "count": 4
+            },
+            {
+              "item": "minecraft:water_bucket",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blue_dye",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/salvegleam",
+    "name": "Salvegleam",
+    "category": "gems",
+    "icon": "arcanearchives:salvegleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Salvegleam is an Arcane Gem formed from a pink-spectrum piece of Shaped Radiant Quartz in an asscher cut.\n\nWhen held and toggled on, the gem will heal you for half a heart approximately once every second if you are hurt. Each half heart consumes a point of charge.",
+        "images": [],
+        "item": "arcanearchives:salvegleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "To recharge a dun Salvegleam, slaughter a passive animal while holding the gem. Doing so restores points of charge equal to half of the animal's maximum health.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:salvegleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "salvegleam",
+          "output": {
+            "item": "arcanearchives:salvegleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:pink_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:golden_apple",
+              "count": 1
+            },
+            {
+              "item": "minecraft:glistering_melon_slice",
+              "count": 1
+            },
+            {
+              "item": "minecraft:golden_carrot",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/slaughtergleam",
+    "name": "Slaughtergleam",
+    "category": "gems",
+    "icon": "arcanearchives:slaughtergleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Slaughtergleam is an Arcane Gem formed from a red-spectrum piece of Shaped Radiant Quartz in an asscher cut.\n\nWhen held, your attacks are considered to have one level of the Looting enchantment. If you are wielding a weapon with the Looting enchantment, its level is increased by one",
+        "images": [],
+        "item": "arcanearchives:slaughtergleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "instead.\n\nTo recharge a dun Slaughtergleam, activate the gem while you have a gold nugget in your inventory. The gold nugget is consumed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:slaughtergleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "slaughtergleam",
+          "output": {
+            "item": "arcanearchives:slaughtergleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:red_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:diamond",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 2
+            },
+            {
+              "item": "minecraft:lapis_block",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/stormway",
+    "name": "Stormway",
+    "category": "gems",
+    "icon": "arcanearchives:stormway",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Stormway is an Arcane Gem formed from a yellow-spectrum piece of Shaped Radiant Quartz in a trillion cut.\n\nWhen activated, a Stormway will call down a lightning strike at a point within 30 blocks at the cost of one point of charge.\n\nIf you're struck by lightning while holding a Stormway, you",
+        "images": [],
+        "item": "arcanearchives:stormway",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": " gain Speed, Night Vision, and Resistance for a short time. The gem loses six points of charge when it grants these effects.\n\nWhile toggled on, if you are struck by a projectile attack, a lightning strike is called at the position of your attacker. The bolt is significantly more dangerous than a normal lightning strike, and the gem loses one point of charge to retaliate in this way.\n\nTo recharge a dun Stormway, hold or toss it outside during a storm.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:stormway",
+        "crafting": [],
+        "gemcutting": {
+          "id": "stormway",
+          "output": {
+            "item": "arcanearchives:stormway",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:yellow_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:redstone",
+              "count": 16
+            },
+            {
+              "item": "minecraft:iron_bars",
+              "count": 8
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/switchgleam",
+    "name": "Switchgleam",
+    "category": "gems",
+    "icon": "arcanearchives:switchgleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Switchgleam is an Arcane Gem formed from a purple-spectrum piece of Shaped Radiant Quartz in an asscher cut.\n\nWhen activated, a Switchgleam will swap the positions of you and the entity you're looking at, at the cost of one point of charge.\n\nWhile held, Endermen within 10",
+        "images": [],
+        "item": "arcanearchives:switchgleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "blocks will have their teleportation attempts absorbed.\n\nTo recharge a dun Switchgleam, allow it to absorb Enderman teleportation. Each teleport attempt absorbed restores three points of charge.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:switchgleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "switchgleam",
+          "output": {
+            "item": "arcanearchives:switchgleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:purple_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:tripwire_hook",
+              "count": 1
+            },
+            {
+              "item": "minecraft:ender_pearl",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/devouring_charm",
+    "name": "Devouring Charm",
+    "category": "items",
+    "icon": "arcanearchives:devouring_charm",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Devouring Charm allows you to destroy items or empty fluids out of a bucket. Devouring Charms are also an optional upgrade component.",
+        "images": [],
+        "item": "arcanearchives:devouring_charm",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Tank\n\nWhen used to upgrade a Radiant Tank, any fluid inserted over the tank's maximum capacity is destroyed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Trove\n\nWhen used to upgrade a Radiant Trove, any items inserted beyond the Trove's maximum capacity are destroyed.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Parchtear\n\nPlacing a Parchtear into the fluid voiding slot of a Devouring Charm restores its charge.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:devouring_charm",
+        "crafting": [],
+        "gemcutting": {
+          "id": "devouring_charm",
+          "output": {
+            "item": "arcanearchives:devouring_charm",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 1
+            },
+            {
+              "item": "minecraft:obsidian",
+              "count": 2
+            },
+            {
+              "item": "minecraft:flint_and_steel",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nThe Eternal University makes these simple charms available to all apprentices. Inside the mouth of the charm is a portal similar in many ways to a portal to the Nether, save that the connection is one-way.\n\nAnything inserted into the charm will be gone forever, sent to some hellish void to be destroyed. It is standard University procedure to toss leftover food scraps, experimental waste, creatures",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": " you no longer have a need for, and other refuse into your Charm.\n\nThough you have been given a handheld version for personal use, larger charms can be signed out for up to one day's time with the permission of your Master.\n\nIf you find yourself with a case of an exceptionally large mess, a room containing a Devouring Charm approximately eighty blocks in diameter can be signed out with a letter",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "from your Master and the permission of at least two other Masters.\n\nDo show some discretion and at least try not to let anything come to that.\n\nThe Apprentice's Panoply\n...Form letter given to all Apprentices of the Eternal University",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/gem_socket",
+    "name": "Gem Socket",
+    "category": "items",
+    "icon": "arcanearchives:gemsocket",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Gem Socket is a bauble that can be worn in the Body slot.\n\nActivating a Gem Socket allows you to slot in an Arcane Gem. You always treat this gem as if you were holding it for the purposes of passive effects.",
+        "images": [],
+        "item": "arcanearchives:gemsocket",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "The following Arcane Gems have passive effects. Gems with toggles might need to be turned on before inserting before their passive effects take place.\n\nSlaughtergleam\nMurdergleam\nAgegleam\nSwitchgleam\nSalvegleam\nMindspindle\nElixirspindle\nPhoenixway\nStormway",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:gemsocket",
+        "crafting": [],
+        "gemcutting": {
+          "id": "gemsocket",
+          "output": {
+            "item": "arcanearchives:gemsocket",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:scintillating_inlay",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 4
+            },
+            {
+              "item": "minecraft:bowl",
+              "count": 1
+            },
+            {
+              "item": "minecraft:leather",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/letter_invitation",
+    "name": "Letter of Invitation",
+    "category": "items",
+    "icon": "arcanearchives:letter_invitation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "If another player uses a Letter of Invitation that you crafted, they are added to your Network.\n\nManifest When viewing a Manifest, all placed Radiant Storage from any player in your network is visible.",
+        "images": [],
+        "item": "arcanearchives:letter_invitation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:letter_invitation",
+        "crafting": [],
+        "gemcutting": {
+          "id": "letter_invitation",
+          "output": {
+            "item": "arcanearchives:letter_invitation",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 1
+            },
+            {
+              "item": "minecraft:light_blue_dye",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nJourneyman Yailan:\n\nThe Omencasters believe that a child with magical inclinations resides in a village called Brightmeadow. On behalf of the Ministry of Recruitment, you are charged to collect this child and bring it to the Eternal University for assessment.\n\nAccording to their divinations, the child has begun performing magical workings beyond the",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "scope of the hedge magic that the peasantry usually practices. See if you can convince the child to show you its workings. Feign interest, no matter how primitive its spellcraft is.\n\nYour job will be easiest if you can convince the child and its parents to release it to us of their own choosing. Make sure to speak slowly and with simple words. Should the peasantry of Brightmeadow show resistance to giving up the child, offer some small magical",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "enhancements to improve their lives in exchange; perhaps an iron golem or a water purifying charm.\n\nIf you cannot convince the village to willingly part, eliminate the child from their memories and take it anyway. Do not worry about resistance or traumatizing it, as its memories will be eliminated and replaced with more convenient ones. This method is to be considered a last resort, the additional work it will incur will significantly damage your",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "standing with the Ministry of Recruitment.#(br2)Bask in the light of your Enlightenment, and walk ever on the path of Wisdom.\n\nOfficial recruitment charge, Ministry of Recruitment\n...1627, Winter's End",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/letter_resignation",
+    "name": "Letter of Resignation",
+    "category": "items",
+    "icon": "arcanearchives:letter_resignation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Letter of Resignation can be used to leave a Hybrid Network created with a Letter of Invitation.",
+        "images": [],
+        "item": "arcanearchives:letter_resignation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Manifest\n\nWhen you leave a hybrid network, any Radiant Storage you placed is removed from the network, and will no longer be visible on a Manifest by members of the network you left.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:letter_resignation",
+        "crafting": [],
+        "gemcutting": {
+          "id": "letter_resignation",
+          "output": {
+            "item": "arcanearchives:letter_resignation",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 1
+            },
+            {
+              "item": "minecraft:pink_dye",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nTo my esteemed colleagues of the Eternal University,\n\nAll of my Enlightened existence I have labored tirelessly to bring Enlightenment to all whom the Magistocracy have deemed worthy to share in its light. I have strived to be a beacon of Enlightenment to all, but no longer can I turn a blind eye to the delusions that this University has allowed to fester.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "The Enlightenment that the Grand Architects shared was not meant for the vulgar peasantry. Enlightenment is for the pure; we cannot continue to dilute our ranks with crude Novices who will never become anything more than Journeymen.\n\nDue to the increase of this practice, despite my many protests, I no longer feel that Enlightenment is truly the highest goal of the Council of Masters.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "I have decided therefore, to resign from this once great fellowship effective immediately.\n\nOfficial Resignation of Master Rashelon\n...1634, Spring's Birth",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/manifest",
+    "name": "Manifest",
+    "category": "items",
+    "icon": "arcanearchives:manifest",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Manifest lists all items stored within loaded Radiant Storage in one single list.\n\nBy hovering over a slot, you can get a list of each location that the item is stored at, including names of Radiant Chests. By clicking on the slot, you can track the locations of each of these items, drawing a line from your",
+        "images": [],
+        "item": "arcanearchives:manifest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "current position to the target inventories (as long as a target inventory is in the same dimension).\n\nActivating a tracked inventory container disables the line, as does hitting the “End Tracking” button at the bottom of the Manifest's interface.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Search Bar:\n\nYou can filter what items your Manifest displays by typing in the search bar. Right clicking the search bar clears the current term. You can also shift-click the search bar to copy your current JEI search term.\n\nSorting Toggle: The first button toggles whether items are sorted by name or by quantity.\n\nOrder Toggle: The second",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "button toggles whether items are sorted in ascending or descending order.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "JEI Sync:\n\nThe third button toggles whether the search bar syncs with your JEI search term or not.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Monitoring Crystal\n\nItems in non-Radiant storage can be added to the Manifest by attaching a Monitoring Crystal to its storage container.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:manifest",
+        "crafting": [],
+        "gemcutting": {
+          "id": "manifest",
+          "output": {
+            "item": "arcanearchives:manifest",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 1
+            },
+            {
+              "item": "minecraft:black_dye",
+              "count": 1
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/radiant_amphora",
+    "name": "Radiant Amphora",
+    "category": "items",
+    "icon": "arcanearchives:radiant_amphora",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Radiant Amphora acts as a long distance connection to a specific Radiant Tank. You can bind a Radiant Amphora to a Radiant Tank by using the amphora on the desired tank while sneaking. The amphora will become colorized to signify that a connection was made.",
+        "images": [],
+        "item": "arcanearchives:radiant_amphora",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Fill Mode:While in Fill mode, picking up fluid directly places it into the linked Radiant Tank.\n\nEmpty Mode: When in Empty mode, fluid is removed from the linked Radiant Tank and placed at the target point.\n\nYou can switch the Radiant Amphora's current mode by left clicking the air.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Dispenser\n\nA Radiant Amphora placed in a Dispenser will attempt to place fluid from its linked tank if the space in front of the Dispenser is empty. If the space in front of the Dispenser has a fluid block, the Amphora will instead attempt to pick it up and send it to its linked tank.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_amphora",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_amphora",
+          "output": {
+            "item": "arcanearchives:radiant_amphora",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 4
+            },
+            {
+              "item": "minecraft:clay_ball",
+              "count": 4
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/radiant_key",
+    "name": "Radiant Key",
+    "category": "items",
+    "icon": "arcanearchives:radiant_key",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "When held in the main or off hand, you can open a Trapped Chest without the chest firing off a redstone signal.",
+        "images": [],
+        "item": "arcanearchives:radiant_key",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Trove\n\nWhen used to upgrade a Radiant Trove, the item type held by the trove becomes fixed. Even if the Trove's internal storage is reduced to 0 items, it reserves its storage for that type of item only.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_key",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_key",
+          "output": {
+            "item": "arcanearchives:radiant_key",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/raw_quartz",
+    "name": "Raw Radiant Quartz",
+    "category": "items",
+    "icon": "arcanearchives:raw_quartz",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Raw Radiant Quartz is an unrefined magical crystal that makes up the basis of all of Arcane Archives. It is primarily a crafting component.\n\nChest Raw Radiant Quartz can be used to convert a chest to a Radiant Chest.\n\n",
+        "images": [],
+        "item": "arcanearchives:raw_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Crafting Table\n\nRaw Radiant Quartz can be used to convert a crafting table into a Radiant Crafting Table.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Slivers of Light\n\nRaw Radiant Quartz can be used to create Slivers of Light by bashing a piece against another block.\n\nAstral Sorcery Lightwell When placed in a Lightwell with access to the sky, Raw Radiant Quartz creates Liquid Starlight over time. Compared to Aquamarine, its production rate is significantly lower, but is much more resistant to shattering.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "relations",
+        "text": "Raw Radiant Quartz is created over time on top of a Radiant Resonator in the form of a Raw Quartz Cluster.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": [
+          "arcanearchives:blocks/radiant_resonator"
+        ]
+      },
+      {
+        "type": "spotlight",
+        "text": "Raw Radiant Quartz can also be compressed into a storage block. Blocks of Raw Radiant Quartz are a light source.",
+        "images": [],
+        "item": "arcanearchives:storage_raw_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/scepter_manipulation",
+    "name": "Scepter of Manipulation",
+    "category": "items",
+    "icon": "arcanearchives:scepter_manipulation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Scepter of Manipulation is used modify properties of certain Arcane Archives blocks.\n\nThe following blocks have interactions with a Scepter of Manipulation:\nRadiant Chest\nRadiant Tank\nRadiant Trove\nBrazier of Hoarding",
+        "images": [],
+        "item": "arcanearchives:scepter_manipulation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:scepter_manipulation",
+        "crafting": [],
+        "gemcutting": {
+          "id": "scepter_manipulation",
+          "output": {
+            "item": "arcanearchives:scepter_manipulation",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:scepter_revelation",
+              "count": 1
+            },
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/scepter_revelation",
+    "name": "Scepter of Revelation",
+    "category": "items",
+    "icon": "arcanearchives:scepter_revelation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Scepter of Revelation is used to query information about specific Arcane Archives blocks if used while sneaking.\n\nThe following blocks have interactions with a Scepter of Revelation:",
+        "images": [],
+        "item": "arcanearchives:scepter_revelation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "\n\nMonitoring Crystal\nRadiant Chest\nRadiant Crafting Table\nRadiant Resonator\nRadiant Tank\nRadiant Trove\n\nScepters of Revelation are also used as a crafting component for other Scepters.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "Scepters of Revelation can be crafted conventionally.",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:scepter_revelation",
+            "grid": [
+              null,
+              null,
+              "arcanearchives:raw_quartz",
+              null,
+              "minecraft:gold_nugget",
+              null,
+              "minecraft:stick",
+              null,
+              null
+            ],
+            "output": "arcanearchives:scepter_revelation",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nA series of simple divination spells grants this scepter a number of useful information divining abilities. It is standard University procedure to gather data from your experiments using primarily your Scepter of Revelation.\n\nShould your experiments be likely to result in personal injury, your Scepter of Revelation is imbued with a danger-sensing spell and will begin to vibrate wildly. In",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "such a case, you have approximately sixty seconds to vacate the premises.\n\nThe Eternal University is not responsible for healing injuries sustained by careless laboratory procedure.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "The Apprentice's Panoply\n\n\n...From letter given to all Apprentices of the Eternal University\n\nInteresting. The Scepter of Revelation's ability to divine information appears to be greatly enhanced when the crystalline material (which I have dubbed Radiant Quartz) is attached as a prism of sorts.\n\nUnlike my previous instruments, using this newly improved",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Scepter of Revelation is returning consistent results from my storage contraption.\n\nUnfortunately, it seems to have lost its precognitive warning capabilities.\n\nAddendum\n...Sharaveda\n...1665, Summer's Birth",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/shaped_quartz",
+    "name": "Shaped Radiant Quartz",
+    "category": "items",
+    "icon": "arcanearchives:shaped_quartz",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Shaped Radiant Quartz is cut and polished Radiant Quartz that is suitable for more advanced uses. It is primarily a crafting component",
+        "images": [],
+        "item": "arcanearchives:shaped_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Astral Sorcery Lightwell\n\nWhen placed in a Lightwell with access to the sky, Shaped Radiant Quartz creates Liquid Starlight over time. Compared to Aquamarine, its production rate is significantly lower, but is much more resistant to shattering. Shaped Radiant Quartz is a bit more efficient than Raw Radiant Quartz.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Shaped Radiant Quartz can be crafted on a Gem Cutter's Table.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "spotlight",
+        "text": "Shaped Radiant Quartz can also be compressed into a storage block. Blocks of Shaped Radiant Quartz are a light source.",
+        "images": [],
+        "item": "arcanearchives:storage_shaped_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Tank\n\nBlocks of Shaped Radiant Quartz can be used to upgrade Radiant Tanks.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Radiant Trove\n\nBlocks of Shaped Radiant Quartz can be used to upgrade Radiant Troves.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/sliver_of_light",
+    "name": "Sliver of Light",
+    "category": "items",
+    "icon": "arcanearchives:quartz_sliver",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "Slivers of Light are a light source, and an alternative to torches. Unlike torches, they can be placed on the bottom surface of blocks, and are not broken by fluids.",
+        "images": [],
+        "item": "arcanearchives:quartz_sliver",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Slivers of Light can be crafted by bashing a piece of Raw Radiant Quartz against another block. Each bash has a 40% chance of creating a single sliver, and a 20% chance of creating a handful of slivers but destroying the piece of Raw Radiant Quartz.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/writ_expulsion",
+    "name": "Writ of Expulsion",
+    "category": "items",
+    "icon": "arcanearchives:writ_expulsion",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "A Writ of Expulsion can be used to forcibly remove a player from a Hybrid Network.\n\nAnvil Once you've named the Writ of Expulsion on an anvil to the name of the desired player to kick from your network, use it to complete the process.",
+        "images": [],
+        "item": "arcanearchives:writ_expulsion",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:writ_expulsion",
+        "crafting": [],
+        "gemcutting": {
+          "id": "writ_expulsion",
+          "output": {
+            "item": "arcanearchives:writ_expulsion",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 1
+            },
+            {
+              "item": "minecraft:red_dye",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Lore\n\nMaster Sharaveda, it has become painfully clear that you no longer possess the objectivity necessary to act as a Master of the Eternal University.\n\nYou have become utterly obsessed with this material that you claim exists. Yet you have repeatedly failed to produce a shred of actual evidence for its existence, save for glowing fragments. A feat, I might add, that is",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": " achievable with a simple cantrip.\n\nIt is the opinion of this counsel that your mind has been addled by your thaumaturgical studies. You see things that cannot be because of the Warp that has twisted your mind.\n\nGiven your age, it is the opinion of this counsel that your mind is degenerating into senility. These five and six sided shapes you speak of are nonsense; the delusions of",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "a feeble old coot who fails to accept that a theory could be wrong.\n\nA judgment has been reached by a majority of the Quadrate. You have strayed from the path of Wisdom, and your right to Enlightenment is forfeit. You are banished from the Eternal University, and no longer bear the title of Master. You may no longer practice your craft or step foot into the University on pain of execution.",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Final statement at Sharaveda's disciplinary inquest\n...Kurst of the Green Flame, Tetrarch of Research\n...1670, Spring's Height",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  }
+]

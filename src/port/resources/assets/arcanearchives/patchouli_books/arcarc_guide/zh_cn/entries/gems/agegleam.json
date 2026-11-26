@@ -1,0 +1,25 @@
+{
+  "name": "岁月之微光",
+  "icon": "arcanearchives:agegleam",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:agegleam",
+      "link_recipe": true,
+      "text": "岁月之微光是一种奥术宝石，由绿色光谱的$(l:arcanearchives:items/shaped_quartz)刻面辉耀石英$()以阿斯切切割而成。$(br2)激活时，附近动物成长所需的剩余时间将显著减少，每影响一只动物消耗一点充能。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要为耗尽的岁月之微光充能，只需手持它。每三分钟恢复一点充能。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:agegleam",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:green_dye$(br)9 × minecraft:wheat$(br)9 × minecraft:carrot$(br)9 × minecraft:wheat_seeds$(br2)Output: 1 × arcanearchives:agegleam",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Phoenixway",
+  "icon": "arcanearchives:phoenixway",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:phoenixway",
+      "link_recipe": true,
+      "text": "A Phoenixway is an Arcane Gem formed from an orange-spectrum piece of $(l:arcanearchives:items/shaped_quartz)Shaped Radiant Quartz$() in a trillion cut.$(br2)When activated, a Phoenixway will light a fire at a distance of up to 40 blocks at the cost of one point of charge.$(br2)If you're about to take fire"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "damage while holding a Phoenixway, it will block the damage and grant 30 seconds of Fire Resistance at the cost of twelve points of charge.$(br2)To recharge a dun Phoenixway, activate the gem while you have gunpowder in your inventory. Three pieces of gunpowder are necessary to fully refill the gem, and if you have less than three pieces the gem will only be partially recharged. The gunpowder is consumed."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:phoenixway",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:blaze_powder$(br)4 × minecraft:coal$(br)1 × minecraft:flint_and_steel$(br2)Output: 1 × arcanearchives:phoenixway",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "loader": "neoforge:obj",
+  "model": "arcanearchives:models/block/radiant_trove.obj",
+  "render_type": "minecraft:cutout",
+  "flip_v": true,
+  "automatic_culling": false,
+  "textures": {
+    "particle": "arcanearchives:blocks/block_arcanearchives_master",
+    "arcanearchives:blocks/block_arcanearchives_master": "arcanearchives:blocks/block_arcanearchives_master",
+    "arcanearchives:blocks/block_gemcutterstable": "arcanearchives:blocks/block_gemcutterstable",
+    "arcanearchives:blocks/block_gemcutterstable_scroll": "arcanearchives:blocks/block_gemcutterstable_scroll",
+    "arcanearchives:blocks/block_gemcutterstable_tools": "arcanearchives:blocks/block_gemcutterstable_tools",
+    "arcanearchives:blocks/block_lecterngrate": "arcanearchives:blocks/block_lecterngrate",
+    "arcanearchives:blocks/block_lensglass": "arcanearchives:blocks/block_lensglass",
+    "arcanearchives:blocks/block_matrixcore": "arcanearchives:blocks/block_matrixcore",
+    "arcanearchives:blocks/block_matrixcore_pedestalbooks": "arcanearchives:blocks/block_matrixcore_pedestalbooks",
+    "arcanearchives:blocks/block_radiantchest_quartz": "arcanearchives:blocks/block_radiantchest_quartz",
+    "arcanearchives:blocks/block_radiantcraftingtable": "arcanearchives:blocks/block_radiantcraftingtable",
+    "arcanearchives:blocks/block_storage_rawquartz": "arcanearchives:blocks/block_storage_rawquartz",
+    "arcanearchives:blocks/brazier_charcoal": "arcanearchives:blocks/brazier_charcoal",
+    "arcanearchives:blocks/echoing_conformance_chamber": "arcanearchives:blocks/echoing_conformance_chamber",
+    "arcanearchives:blocks/echoing_reverberation_chamber": "arcanearchives:blocks/echoing_reverberation_chamber",
+    "arcanearchives:blocks/glass_edge": "arcanearchives:blocks/glass_edge",
+    "arcanearchives:blocks/lotuscircle": "arcanearchives:blocks/lotuscircle",
+    "arcanearchives:blocks/lotuscircle_simple": "arcanearchives:blocks/lotuscircle_simple",
+    "arcanearchives:blocks/lotuspetal": "arcanearchives:blocks/lotuspetal",
+    "arcanearchives:blocks/pylon": "arcanearchives:blocks/pylon",
+    "arcanearchives:blocks/radiant_furnace": "arcanearchives:blocks/radiant_furnace",
+    "arcanearchives:blocks/radiant_resonator": "arcanearchives:blocks/radiant_resonator",
+    "arcanearchives:blocks/verdant_censer": "arcanearchives:blocks/verdant_censer",
+    "arcanearchives:cover": "arcanearchives:cover",
+    "arcanearchives:covers/default": "arcanearchives:covers/default",
+    "arcanearchives:items/item_manifest": "arcanearchives:items/item_manifest",
+    "arcanearchives:paper": "arcanearchives:paper",
+    "minecraft:block/diorite": "minecraft:block/diorite",
+    "minecraft:block/fire_layer_0": "minecraft:block/fire_layer_0",
+    "minecraft:block/fire_layer_1": "minecraft:block/fire_layer_1",
+    "minecraft:block/iron_bars": "minecraft:block/iron_bars",
+    "minecraft:block/water_still": "minecraft:block/water_still"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        20,
+        45,
+        20
+      ],
+      "translation": [
+        0.32,
+        0.0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0.0,
+        2.4,
+        1.6
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        2.0,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "translation": [
+        0,
+        2.0,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0.0,
+        2.4,
+        1.6
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}
