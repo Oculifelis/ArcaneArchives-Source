@@ -1,0 +1,101 @@
+plugins { id 'java-library'; id 'net.minecraftforge.gradle' version '6.0.54' }
+version = mod_version
+group = 'com.aranaira.arcanearchives'
+base { archivesName = 'arcanearchives-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+sourceSets {
+    main { java.setSrcDirs(['src/port/java']); resources.setSrcDirs(['src/port/resources']) }
+}
+repositories { mavenCentral() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.fork = false }
+tasks.withType(Jar).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }
+jar { from('LICENSE'); from('CREDITS.md'); from('Guidebook_License.txt') }
+if (project.hasProperty('qa')) { sourceSets.main.java.srcDir('../qa/generated/forge-1.20.1') }
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    runs {
+        configureEach {
+            workingDirectory project.file(project.hasProperty('qa') ? 'run-qa' : 'run')
+            property 'mixin.env.remapRefMap','true'
+            property 'mixin.env.refMapRemappingFile',project.file('build/createSrgToMcp/output.srg').absolutePath
+            mods { arcanearchives { source sourceSets.main } }
+        }
+        client {
+            if(project.hasProperty('clientqa')){
+                property 'aa.clientqa','true'
+                workingDirectory project.file('run-client-qa')
+                args '--quickPlaySingleplayer','arcane-integrated-qa','--width','1280','--height','800'
+            }
+        }
+        server { args '--nogui'; property 'aa.clientqa',project.hasProperty('clientqa').toString() }
+        gameTestServer { property 'forge.enabledGameTestNamespaces', 'arcanearchives' }
+    }
+}
+dependencies { minecraft 'net.minecraftforge:forge:' + minecraft_version + '-' + loader_version }
+jar.finalizedBy('reobfJar')
+
+repositories { maven { url = uri('../tools/dependencies/maven') }; maven { url = 'https://maven.blamejared.com' } }
+dependencies { compileOnly(fg.deobf('mezz.jei:jei-1.20.1-forge:15.71.0.224')) { transitive = false }; if(project.hasProperty('integrations')) { runtimeOnly(fg.deobf('mezz.jei:jei-1.20.1-forge:15.71.0.224')) { transitive = false } } }
+repositories { maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } } }
+dependencies { if(file('../tools/dependencies/Jade-1.20.1-Forge-11.13.3.jar').isFile()) { compileOnly files('../tools/dependencies/Jade-1.20.1-Forge-11.13.3.jar') } else { compileOnly('maven.modrinth:jade:xJQHCmWJ') { transitive = false } } }
+
+def prepareArcaneLaunch = { run ->
+    if(run.hasProperty('runConfig')) {
+        def config = run.runConfig.get()
+        def generator = run.class.classLoader.loadClass('net.minecraftforge.gradle.common.util.runs.RunConfigGenerator')
+        def rootsMethod = generator.declaredMethods.find { it.name == 'mapModClassesToGradle' }
+        rootsMethod.accessible = true
+        def roots = rootsMethod.invoke(null, [project,config] as Object[])
+        def tokensMethod = generator.declaredMethods.find { it.name == 'configureTokensLazy' }
+        tokensMethod.accessible = true
+        def tokens = tokensMethod.invoke(null, [project,config,roots,run.minecraftArtifacts,run.runtimeClasspathArtifacts] as Object[])
+        run.workingDir = file(config.workingDirectory)
+        run.args(config.args.collect { config.replace(tokens,it) })
+        run.jvmArgs(config.jvmArgs.collect { config.replace(tokens,it) })
+        if(config.client)run.jvmArgs(run.additionalClientArgs.get().collect { config.replace(tokens,it) })
+        config.environment.each { key,value -> run.environment(key,config.replace(tokens,value)) }
+        config.properties.each { key,value -> run.systemProperty(key,config.replace(tokens,value)) }
+        config.allSources.each { run.classpath(it.runtimeClasspath) }
+    }
+}
+tasks.register('exportClientLaunch') {
+    dependsOn { def run = tasks.named('runClient').get(); run.taskDependencies.getDependencies(run) }
+    doLast {
+        def run = tasks.named('runClient').get()
+        prepareArcaneLaunch(run)
+        def spec = [executable: run.javaLauncher.get().executablePath.asFile.absolutePath,
+                    jvmArgs: run.allJvmArgs + run.jvmArgs + run.jvmArgumentProviders.collectMany { it.asArguments().toList() },
+                    classpath: (run.hasProperty('classpathProvider') ? run.classpathProvider : run.classpath).asPath,
+                    mainClass: run.mainClass.get(), args: run.args,
+                    environment: (run.environment + (run.hasProperty('environmentProperty') ? run.environmentProperty.get() : [:])).findAll { key, value -> System.getenv(key) != value.toString() },
+                    directory: (run.hasProperty('gameDirectory') ? run.gameDirectory.get().asFile : run.workingDir).absolutePath]
+        file('build/client-launch.json').text = groovy.json.JsonOutput.toJson(spec)
+    }
+}
+tasks.register('exportServerLaunch') {
+    dependsOn { def run = tasks.named('runServer').get(); run.taskDependencies.getDependencies(run) }
+    doLast {
+        def run = tasks.named('runServer').get()
+        prepareArcaneLaunch(run)
+        def spec = [executable: run.javaLauncher.get().executablePath.asFile.absolutePath,
+                    jvmArgs: run.allJvmArgs + run.jvmArgs + run.jvmArgumentProviders.collectMany { it.asArguments().toList() },
+                    classpath: (run.hasProperty('classpathProvider') ? run.classpathProvider : run.classpath).asPath,
+                    mainClass: run.mainClass.get(), args: run.args,
+                    environment: (run.environment + (run.hasProperty('environmentProperty') ? run.environmentProperty.get() : [:])).findAll { key, value -> System.getenv(key) != value.toString() },
+                    directory: (run.hasProperty('gameDirectory') ? run.gameDirectory.get().asFile : run.workingDir).absolutePath]
+        file('build/server-launch.json').text = groovy.json.JsonOutput.toJson(spec)
+    }
+}
+tasks.register('exportCompilation') {
+    doLast {
+        def compile = tasks.named('compileJava').get()
+        def spec = [destination: compile.destinationDirectory.get().asFile.absolutePath,
+                    classpath: compile.classpath.asPath,
+                    sources: compile.source.files.collect { it.absolutePath },
+                    compilerArgs: compile.options.compilerArgs,
+                    source: compile.sourceCompatibility, target: compile.targetCompatibility]
+        file('build/compile-launch.json').text = groovy.json.JsonOutput.toJson(spec)
+    }
+}
+
+dependencies { compileOnly('com.blamejared.crafttweaker:CraftTweaker-forge-1.20.1:14.0.60') { transitive=false }; compileOnly('org.openzen.zencode:JavaAnnotations:0.3.8') { transitive=false } }

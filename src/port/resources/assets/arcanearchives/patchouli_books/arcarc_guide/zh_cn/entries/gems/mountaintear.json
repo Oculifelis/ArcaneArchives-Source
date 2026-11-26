@@ -1,0 +1,31 @@
+{
+  "name": "山之泪",
+  "icon": "arcanearchives:mountaintear",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:mountaintear",
+      "link_recipe": true,
+      "text": "山之泪是一种奥术宝石，由橙色光谱的$(l:arcanearchives:items/shaped_quartz)刻面辉耀石英$()以梨形切切割而成。$(br2)激活时，山之泪会在最远40格的距离处召唤一块熔岩，消耗一点充能。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要为耗尽的山之泪充能，将它丢入熔岩中。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "当放置在有天空视野的光井中时，山之泪会以缓慢的速度产生熔岩。虽然山之泪有可能碎裂，但碎裂的概率微乎其微。实际上，山之泪可以无限期使用，除非其光井被破坏。一旦放入光井，山之泪无法取回。",
+      "flag": "mod:astralsorcery",
+      "title": "星辉魔法光井"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:mountaintear",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:orange_dye$(br)4 × minecraft:magma_block$(br)1 × minecraft:lava_bucket$(br2)Output: 1 × arcanearchives:mountaintear",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

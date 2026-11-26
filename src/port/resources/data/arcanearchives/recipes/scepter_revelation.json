@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  R",
+    " G ",
+    "S  "
+  ],
+  "key": {
+    "R": {
+      "item": "arcanearchives:raw_quartz"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arcanearchives:scepter_revelation"
+  }
+}

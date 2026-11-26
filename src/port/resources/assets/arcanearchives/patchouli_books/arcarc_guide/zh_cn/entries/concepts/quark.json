@@ -1,0 +1,18 @@
+{
+  "name": "Quark兼容",
+  "icon": "arcanearchives:tome_arcana",
+  "category": "arcanearchives:concepts",
+  "flag": "mod:quark",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:chest",
+      "text": "$(br2)$(bold)辉耀箱$()$(l:arcanearchives:blocks/radiant_chest)辉耀箱$()支持Quark的物品搜索栏，以及其整理、存放、合并、取出和补货按钮。",
+      "title": "物品管理"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)囤积火盆$()标记为收藏的物品不会在右键点击时存入$(l:arcanearchives:blocks/brazier_hoarding)囤积火盆$()。收藏物品仍可通过投掷方式放入囤积火盆。"
+    }
+  ]
+}

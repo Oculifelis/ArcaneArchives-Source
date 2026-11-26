@@ -1,0 +1,25 @@
+{
+  "name": "宝石槽",
+  "icon": "arcanearchives:gemsocket",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:items",
+  "flag": "arcanearchives:arsenal_enabled",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:gemsocket",
+      "link_recipe": true,
+      "text": "宝石槽是一种饰品，可以佩戴在身体槽位中。$(br2)激活宝石槽可以让你插入一颗奥术宝石。在被动效果方面，你始终被视为手持该宝石。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "以下奥术宝石具有被动效果。需要切换开关的宝石可能需要在插入前开启，被动效果才能生效。$(br2)$(l:arcanearchives:gems/slaughtergleam)屠宰之微光$()$(br)$(l:arcanearchives:gems/murdergleam)谋杀之微光$()$(br)$(l:arcanearchives:gems/agegleam)岁月之微光$()$(br)$(l:arcanearchives:gems/switchgleam)调换之微光$()$(br)$(l:arcanearchives:gems/salvegleam)抚慰之微光$()$(br)$(l:arcanearchives:gems/mindspindle)心灵纺锤$()$(br)$(l:arcanearchives:gems/elixirspindle)灵药纺锤$()$(br)$(l:arcanearchives:gems/phoenixway)凤凰之道$()$(br)$(l:arcanearchives:gems/stormway)风暴之道$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:gemsocket",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:scintillating_inlay$(br)4 × minecraft:gold_nugget$(br)1 × minecraft:bowl$(br)1 × minecraft:leather$(br2)Output: 1 × arcanearchives:gemsocket",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

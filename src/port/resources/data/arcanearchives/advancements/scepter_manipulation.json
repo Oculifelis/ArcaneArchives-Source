@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "arcanearchives:scepter_manipulation"
+    },
+    "title": {
+      "translate": "advancement.arcanearchives.scepter_manipulation"
+    },
+    "description": {
+      "translate": "advancement.arcanearchives.scepter_manipulation.desc"
+    }
+  },
+  "parent": "arcanearchives:gemcutters_table",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "arcanearchives:scepter_manipulation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "book"
+    ]
+  ]
+}

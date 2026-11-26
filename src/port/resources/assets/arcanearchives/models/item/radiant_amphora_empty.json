@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcanearchives:items/item_radiantamphora_tilted",
+    "layer1": "arcanearchives:items/item_radiantamphora_fluidmask_empty"
+  }
+}

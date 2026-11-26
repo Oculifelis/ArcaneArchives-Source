@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/brazier_of_hoarding"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/brazier_of_hoarding"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/brazier_of_hoarding"
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/brazier_of_hoarding"
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/brazier_of_hoarding"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/brazier_of_hoarding"
+    }
+  }
+}
