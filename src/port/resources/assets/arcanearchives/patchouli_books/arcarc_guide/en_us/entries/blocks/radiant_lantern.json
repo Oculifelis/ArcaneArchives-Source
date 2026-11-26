@@ -1,0 +1,20 @@
+{
+  "name": "Radiant Lantern",
+  "icon": "arcanearchives:radiant_lantern",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:blocks",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:radiant_lantern",
+      "link_recipe": true,
+      "text": "Radiant Lanterns are a light source. They can be placed in any orientation, and will not pop off if the block they're attached to is removed."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:radiant_lantern",
+      "text": "$(bold)Gemcutter recipe$()$(br2)2 × arcanearchives:raw_quartz$(br)1 × minecraft:gold_nugget$(br2)Output: 4 × arcanearchives:radiant_lantern",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Murdergleam",
+  "icon": "arcanearchives:murdergleam",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:murdergleam",
+      "link_recipe": true,
+      "text": "A Murdergleam is an Arcane Gem formed from a yellow-spectrum piece of $(l:arcanearchives:items/shaped_quartz)Shaped Radiant Quartz$() in an asscher cut.$(br2)When toggled on, a Murdergleam guarantees that all of your attacks will be critical hits. Each attack drains a point of charge (even attacks that deal no damage due to attacking too"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "quickly). The gem can be toggled on or off by left clicking.$(br2)When a Murdergleam runs out of charge, it automatically toggles itself off. Likewise, when it reaches full charge, it automatically toggles itself on.$(br2)To recharge a dun Murdergleam, land traditional critical hits while the gem is toggled off."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:murdergleam",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:yellow_dye$(br)1 × minecraft:diamond_sword$(br)2 × minecraft:blaze_powder$(br2)Output: 1 × arcanearchives:murdergleam",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

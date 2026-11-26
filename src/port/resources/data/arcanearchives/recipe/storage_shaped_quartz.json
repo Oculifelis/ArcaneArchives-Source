@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    },
+    {
+      "item": "arcanearchives:shaped_quartz"
+    }
+  ],
+  "result": {
+    "id": "arcanearchives:storage_shaped_quartz"
+  }
+}

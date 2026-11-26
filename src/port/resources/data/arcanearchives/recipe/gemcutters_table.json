@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DGP",
+    "WCW",
+    "QWQ"
+  ],
+  "key": {
+    "D": [
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "minecraft:diorite"
+      }
+    ],
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    },
+    "Q": {
+      "item": "arcanearchives:raw_quartz"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "arcanearchives:gemcutters_table"
+  }
+}

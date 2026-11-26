@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/radiant_tank"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/radiant_tank"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/radiant_tank"
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/radiant_tank"
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/radiant_tank"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/radiant_tank"
+    }
+  }
+}

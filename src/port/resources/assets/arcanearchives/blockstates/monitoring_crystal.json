@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/monitoring_crystal",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/monitoring_crystal",
+      "x": 90
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/monitoring_crystal",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/monitoring_crystal"
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/monitoring_crystal",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/monitoring_crystal",
+      "y": 90
+    }
+  }
+}

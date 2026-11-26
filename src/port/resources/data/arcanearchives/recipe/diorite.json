@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cd",
+    "dc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:cobblestone"
+    },
+    "d": {
+      "item": "arcanearchives:raw_quartz"
+    }
+  },
+  "result": {
+    "count": 8,
+    "id": "minecraft:diorite"
+  }
+}

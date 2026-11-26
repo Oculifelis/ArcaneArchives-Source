@@ -1,0 +1,25 @@
+{
+  "name": "辉耀之匙",
+  "icon": "arcanearchives:radiant_key",
+  "advancement": "arcanearchives:gemcutters_table",
+  "category": "arcanearchives:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:radiant_key",
+      "link_recipe": true,
+      "text": "当主手或副手持有时，你可以打开陷阱箱而不会触发红石信号。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "当用于升级$(l:arcanearchives:blocks/radiant_trove)辉耀宝库$()时，宝库所容纳的物品类型将被固定。即使宝库内部存储减少到0件物品，它也会为该类物品保留存储空间。",
+      "title": "辉耀宝库"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:radiant_key",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × minecraft:gold_ingot$(br)3 × minecraft:gold_nugget$(br)1 × arcanearchives:shaped_quartz$(br2)Output: 4 × arcanearchives:radiant_key",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

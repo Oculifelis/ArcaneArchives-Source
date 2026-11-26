@@ -1,0 +1,20 @@
+{
+  "parent": "arcanearchives:item/gems/arcane_gem",
+  "textures": {
+    "layer0": "arcanearchives:items/gems/asscher/yellow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "arcanearchives:colourblind": 1.0
+      },
+      "model": "arcanearchives:item/gems/accessibility/asscher/yellow"
+    },
+    {
+      "predicate": {
+        "arcanearchives:dun": 1
+      },
+      "model": "arcanearchives:item/gems/asscher/dun"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "astralsorcery"
+    }
+  ],
+  "type": "astralsorcery:lightwell",
+  "input": {
+    "item": "arcanearchives:raw_quartz"
+  },
+  "generated_fluid": "astralsorcery:liquid_starlight",
+  "production_multiplier": 0.07,
+  "shatter_multiplier": 0.0125,
+  "catalyst_color": -2232577
+}

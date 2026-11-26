@@ -1,0 +1,25 @@
+{
+  "name": "Agegleam",
+  "icon": "arcanearchives:agegleam",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:agegleam",
+      "link_recipe": true,
+      "text": "An Agegleam is an Arcane Gem formed from a green-spectrum piece of $(l:arcanearchives:items/shaped_quartz)Shaped Radiant Quartz$() in an asscher cut.$(br2)When activated, the amount of time until nearby animals grow up will be significantly reduced, at the cost of charge for each animal affected."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To recharge a dun Agegleam, simply hold onto it. It regains one point of charge every three minutes."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "arcanearchives:agegleam",
+      "text": "$(bold)Gemcutter recipe$()$(br2)1 × arcanearchives:shaped_quartz$(br)4 × minecraft:green_dye$(br)9 × minecraft:wheat$(br)9 × minecraft:carrot$(br)9 × minecraft:wheat_seeds$(br2)Output: 1 × arcanearchives:agegleam",
+      "title": "Gemcutter recipe"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "astralsorcery"
+    }
+  ],
+  "type": "astralsorcery:lightwell",
+  "input": {
+    "item": "arcanearchives:rivertear"
+  },
+  "generated_fluid": "minecraft:water",
+  "production_multiplier": 16384.0,
+  "shatter_multiplier": 5e-07,
+  "catalyst_color": -13142585
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/radiant_chest"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/radiant_chest"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/radiant_chest"
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/radiant_chest"
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/radiant_chest"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/radiant_chest"
+    }
+  }
+}

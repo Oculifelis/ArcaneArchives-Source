@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "wqw",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "tag": "minecraft:planks"
+    },
+    "q": {
+      "item": "arcanearchives:raw_quartz"
+    }
+  },
+  "result": {
+    "id": "arcanearchives:radiant_chest"
+  }
+}

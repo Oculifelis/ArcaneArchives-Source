@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/gemcutters_table"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/gemcutters_table"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/gemcutters_table",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/gemcutters_table",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/gemcutters_table"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/gemcutters_table",
+      "y": 180
+    }
+  }
+}

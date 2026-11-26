@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/radiant_resonator"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/radiant_resonator"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/radiant_resonator"
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/radiant_resonator"
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/radiant_resonator"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/radiant_resonator"
+    }
+  }
+}

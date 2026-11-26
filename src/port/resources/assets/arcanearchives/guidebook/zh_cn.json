@@ -1,0 +1,3025 @@
+[
+  {
+    "id": "blocks/brazier_hoarding",
+    "name": "囤积火盆",
+    "category": "blocks",
+    "icon": "arcanearchives:brazier_of_hoarding",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "囤积火盆是一种整理设备，可作为物品的中转站，将物品存入你的网络中。囤积火盆同时也是一种光源。\n\n",
+        "images": [],
+        "item": "arcanearchives:brazier_of_hoarding",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀宝库\n\n任何对着囤积火盆使用或丢在其上的物品都会被传送到合适的存储设备中，首当其冲的是辉耀宝库。如果网络中没有合适的辉耀宝库，物品将被放入辉耀箱中，优先放入已有同类物品的箱子。\n\n如果找不到任何存储设备，物品将从囤积火盆中被弹出。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "操纵权杖\n\n如果手持操纵权杖右键点击火盆，你可以设置其搜索辉耀存储设备的最大半径，以及火盆是填充网络中所有已定位的设备，还是仅填充你个人放置的设备。你还可以启用一个选项来可视化插入区域的大小。\n\n",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "潜影盒\n\n如果对着囤积火盆右键点击潜影盒，其内容物将被存入火盆中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "Quark\n\n如果你将某物品设置为Quark收藏物品，则无法通过右键点击将其插入囤积火盆。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "神秘时代\n\n囤积火盆可用作注魔稳定器。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:brazier_of_hoarding",
+        "crafting": [],
+        "gemcutting": {
+          "id": "brazier_of_hoarding",
+          "output": {
+            "item": "arcanearchives:brazier_of_hoarding",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 4
+            },
+            {
+              "item": "minecraft:coal",
+              "count": 8
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 2
+            },
+            {
+              "tag": "minecraft:logs",
+              "count": 3
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/gemcutters_table",
+    "name": "宝石切割台",
+    "category": "blocks",
+    "icon": "arcanearchives:gemcutters_table",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "宝石切割台是一种制作站，用于将辉耀石英原石精炼为刻面辉耀石英。需要精细工艺的物品通常都在宝石切割台上制作。\n\n",
+        "images": [],
+        "item": "arcanearchives:gemcutters_table",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "与传统合成不同，宝石切割台的配方没有形状要求。选择所需物品后，只要材料足够，你就可以直接从输出槽中取出物品。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "囤积火盆\n\n宝石切割台的内部物品栏可以通过囤积火盆进行填充。已有物品的槽位会被补满，但新物品不会被放入空槽。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/lectern_manifest",
+    "name": "清单台",
+    "category": "blocks",
+    "icon": "arcanearchives:lectern_manifest",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "清单台的功能与清单相同，区别在于它是放置在世界上而非随身携带的物品。\n\n使用物品追踪功能时，清单台会从你所在位置向目标容器绘制线条，而非从清单台自身绘制。",
+        "images": [],
+        "item": "arcanearchives:lectern_manifest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "清单台可以通过常规方式合成。",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:lectern_manifest",
+            "grid": [
+              null,
+              {
+                "item": "arcanearchives:manifest"
+              },
+              null,
+              {
+                "item": "minecraft:stick"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "item": "minecraft:stick"
+              },
+              {
+                "item": "minecraft:stick"
+              },
+              null,
+              {
+                "item": "minecraft:stick"
+              }
+            ],
+            "output": "arcanearchives:lectern_manifest",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n我记得我在永恒大学做学徒最初那些日子里的敬畏感。高耸的镀金穹顶塔楼，永远暮色的天空中飞舞着发光的灵丝，以及那些被包含在过于狭小建筑中的、不可思议的巨大空间。\n\n当我参加第一堂课时，所有的奇妙感都崩塌了。导师站在我们上方，从一个深色木制、镶着金色装饰的讲台上讲话，",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "向我们大声灌输着责任、勤奋和权威的重要性。\n\n他的话抽走了这个地方所有的奇妙感。\n\n一些同窗在演讲后离开了大学。一些人无视了他的话，然后迷失了。大多数人（包括我自己，说来惭愧）听从了他的话，成为了伟大研究机器中勤勉的小齿轮。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "我不知道他是用了巫术来强调他的教诲，还是他仅仅是一个年老、自大的吹牛者。当我的思绪无所事事时，我经常发现自己会思考这件事。\n\n几年前，智政院下令进行课程审查。决定将教学方式从一位导师对一大群学生授课，改为一对一师徒制，从而消除了对那些",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "该死的讲台的需求。\n\n我带了一个回到我的圣所，并且很乐意将它贬为某个被遗忘角落里的一张书桌。\n\n终于解脱了，我说。对讲台、老派导师们、以及他们在大学所带来的狭隘统治的一切，终于解脱了。\n\n莎拉维达的个人随笔\n...1663年，夏末",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/monitoring_crystal",
+    "name": "监视水晶",
+    "category": "blocks",
+    "icon": "arcanearchives:monitoring_crystal",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "监视水晶可用于将辉耀存储容器的追踪能力附加到非奥术档案馆的容器上（如原版箱子）。它也是一种光源。",
+        "images": [],
+        "item": "arcanearchives:monitoring_crystal",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "清单\n\n安装了监视水晶的容器中的物品可以通过清单查看和追踪，就像它们是辉耀存储容器一样。你不能将监视水晶安装在辉耀箱、辉耀储罐或辉耀宝库上；这些设备会自动出现在你的清单中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖\n\n对监视水晶使用启示权杖会返回监视水晶所指向的方向。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:monitoring_crystal",
+        "crafting": [],
+        "gemcutting": {
+          "id": "monitoring_crystal",
+          "output": {
+            "item": "arcanearchives:monitoring_crystal",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 2
+            },
+            {
+              "item": "minecraft:stick",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n烙印信条\n\n你所展现的承诺和卓越使你获得了自称永恒大学大师的权利。从此刻起，你获得新生，摆脱了学徒身份的枷锁。\n\n你的额头将刻上监控之烙印，我们将以此注视你。观察带来诚实，",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "诚实带来节制。\n\n启迪是强者的权利，而节制之外无力量可言。\n\n信任四方议会的判断，智政院将信任你的成果。\n\n沐浴在你启迪的光芒中，大师，永远行走在智慧的道路上。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_chest",
+    "name": "辉耀箱",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_chest",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀箱是一种存储容器，单个方块即可拥有与原版双箱子相同数量的槽位。辉耀箱的每个槽位可存储多达256个物品，而非物品原本的堆叠上限。\n\n在辉耀箱界面的底部，你可以为其命名以帮助整理存储。",
+        "images": [],
+        "item": "arcanearchives:radiant_chest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀箱也是一种光源。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "清单\n\n只要箱子所在的区块已加载，存储在辉耀箱中的物品就会出现在清单中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "操纵权杖\n\n手持操纵权杖对辉耀箱使用，同时另一只手持有物品，可以将该物品标记为箱子的标签。物品不会被消耗。\n\n要清除标签，在主手持有操纵权杖且副手空无一物时，潜行并激活箱子。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖\n\n对辉耀箱使用启示权杖会返回箱子的名称及其可用槽位数量。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "囤积火盆\n\n在辉耀箱界面的右下角，你可以选择囤积火盆如何将物品路由到箱子。默认情况下，火盆可以将任何物品路由到箱子；如果勾选了复选框，则只有箱子里已经存在的物品才能被路由。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "红石比较器\n\n当用红石比较器检测时，辉耀箱会根据其满载程度（按总物品数而非槽位数）输出信号。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀石英原石\n\n辉耀箱可以通过潜行时对箱子使用一块辉耀石英原石来合成。箱子内的任何物品都会被导入，如果作用于原版双箱子，两个箱子的物品都会被导入新的辉耀箱中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "辉耀箱也可以通过常规方式合成。",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:radiant_chest1",
+            "grid": [
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "item": "arcanearchives:raw_quartz"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "tag": "minecraft:planks"
+              },
+              {
+                "tag": "minecraft:planks"
+              }
+            ],
+            "output": "arcanearchives:radiant_chest",
+            "count": 1
+          },
+          {
+            "id": "arcanearchives:radiant_chest2",
+            "grid": [
+              {
+                "item": "arcanearchives:raw_quartz"
+              },
+              {
+                "item": "minecraft:chest"
+              },
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "output": "arcanearchives:radiant_chest",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n经过进一步检查，赋予我的那种发光的晶体物质似乎具有空间（还是时间？）扭曲特性。需要进一步研究；我有一个想法想要尝试。\n\n我用这种晶体物质搭建了一个框架。放置在框架内的物品似乎只有在特定视角下才可见而且，如果我的仪器可信的话，它们确实存在。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "我试图在框架上安装木板来封住内容物，但它们也同样受到了这种奇怪的空间扭曲影响。\n\n用附魔了坚毅橡木防护的漆料加固木板，似乎可以防止木板受到这些扭曲的影响。\n\n看来我之前对坚毅橡木防护相较于注魔木材的看法是错误的。我想",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "我欠埃特蕾亚一杯酒。\n\n莎拉维达的研究日志\n...1665年，秋初",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_crafting_table",
+    "name": "辉耀工作台",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_crafting_table",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀工作台的功能与传统工作台相同，但离开界面时物品不会被丢出。辉耀工作台也是一种光源。\n\n合成物品后，你可以点击界面右侧的某个槽位来保存配方。如果你的物品栏中有足够的",
+        "images": [],
+        "item": "arcanearchives:radiant_crafting_table",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "材料，点击保存了配方的槽位即可直接合成物品，无需手动摆放材料。Shift点击可以清除槽位中的配方。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖\n\n对辉耀工作台使用启示权杖会返回合成格中当前有哪些物品。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀石英原石\n\n辉耀工作台可以通过潜行时对原版工作台使用一块辉耀石英原石来合成。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "辉耀工作台也可以通过常规方式合成。",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:radiant_crafting_table",
+            "grid": [
+              {
+                "item": "arcanearchives:raw_quartz"
+              },
+              {
+                "item": "minecraft:crafting_table"
+              },
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "output": "arcanearchives:radiant_crafting_table",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_lantern",
+    "name": "辉明灯",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_lantern",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉明灯是一种光源。它们可以以任意方向放置，并且即使附着的方块被移除也不会掉落。",
+        "images": [],
+        "item": "arcanearchives:radiant_lantern",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_lantern",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_lantern",
+          "output": {
+            "item": "arcanearchives:radiant_lantern",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:raw_quartz",
+              "count": 2
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_resonator",
+    "name": "辉耀谐振台",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_resonator",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀谐振台每隔五分钟会在自身上方的一个方块位置生成一个辉耀石英原石簇。石英生成后，过程将暂停，直到共振器上方的方块被清空。\n\n",
+        "images": [],
+        "item": "arcanearchives:radiant_resonator",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "你最多只能放置三个辉耀谐振台。任何额外尝试放置的共振器都会掉落，而通过自动化手段放置的共振器会自行销毁。\n\n即使区块已加载，辉耀谐振台也只会在你在线时运行。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖\n\n对辉耀谐振台使用启示权杖会返回其当前进度以及是否正在运行。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "红石比较器\n\n当用红石比较器检测时，辉耀谐振台会根据其生成新石英原石簇的进度输出信号。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "辉耀谐振台可以通过常规方式合成。",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:radiant_resonator",
+            "grid": [
+              {
+                "item": "minecraft:gold_ingot"
+              },
+              {
+                "item": "minecraft:iron_bars"
+              },
+              {
+                "item": "minecraft:gold_ingot"
+              },
+              {
+                "tag": "minecraft:logs"
+              },
+              {
+                "item": "minecraft:water_bucket"
+              },
+              {
+                "tag": "minecraft:logs"
+              },
+              {
+                "tag": "minecraft:logs"
+              },
+              null,
+              {
+                "tag": "minecraft:logs"
+              }
+            ],
+            "output": "arcanearchives:radiant_resonator",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "image",
+        "text": "背景故事\n\n发现于已故者莎拉维达的笔记中\n\n",
+        "images": [
+          "arcanearchives:textures/gui/guidebook/lore_resonator.png"
+        ],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "...由特雷林（死者前学徒）所作的注释\n\n...1672年，冬初",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_tank",
+    "name": "辉耀储罐",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_tank",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀储罐是一种存储容器，可储存多达16桶的单种流体。对流体容器使用辉耀储罐会将目标中的流体转移到手持的辉耀储罐中。",
+        "images": [],
+        "item": "arcanearchives:radiant_tank",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀储罐的存储容量可以升级三次，需要使用操纵权杖。第一次升级将容量提升至基础容量的3倍，第二次至6倍，第三次至10倍。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "容纳场\n\n当作为升级组件使用时，容纳场会使超过储罐最大容量的多余流体被销毁。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀之瓶\n\n辉耀之瓶可以在任意位置向辉耀储罐注入或抽取流体，只要储罐位于已加载的区块中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖\n\n对辉耀储罐使用启示权杖会返回其中存储的流体类型、当前容量、最大容量以及已安装的升级数量。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "操纵权杖\n\n对辉耀储罐使用操纵权杖会打开一个GUI，允许你查看和修改已安装的升级。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "红石比较器\n\n当用红石比较器检测时，辉耀储罐会根据其装满程度输出信号。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_tank",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_tank",
+          "output": {
+            "item": "arcanearchives:radiant_tank",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 2
+            },
+            {
+              "item": "arcanearchives:containment_field",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/radiant_trove",
+    "name": "辉耀宝库",
+    "category": "blocks",
+    "icon": "arcanearchives:radiant_trove",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀宝库是一种存储容器，可容纳多达1024组的单种物品。\n\n辉耀宝库的存储容量可以升级三次，需要使用操纵权杖。第一次升级将容量提升至基础容量的3倍，第二次至6倍，第三次至10倍。",
+        "images": [],
+        "item": "arcanearchives:radiant_trove",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "容纳场\n\n当作为升级组件使用时，容纳场会使超过宝库最大容量的多余物品被销毁。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀之匙\n\n当作为升级组件使用时，辉耀之匙会锁定宝库中的物品种类。即使宝库中的物品数量降至0，它仍会为其曾经容纳的物品类型保留存储空间。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖\n\n对辉耀宝库使用启示权杖会返回其中存储的物品类型、当前数量、最大容量以及已安装的升级数量。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "操纵权杖\n\n对辉耀宝库使用操纵权杖会打开一个GUI，允许你查看和修改已安装的升级。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "红石比较器\n\n当用红石比较器检测时，辉耀宝库会根据其装满程度输出信号。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_trove",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_trove",
+          "output": {
+            "item": "arcanearchives:radiant_trove",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 2
+            },
+            {
+              "item": "arcanearchives:material_interface",
+              "count": 1
+            },
+            {
+              "item": "arcanearchives:radiant_chest",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "blocks/raw_quartz_cluster",
+    "name": "石英原石簇",
+    "category": "blocks",
+    "icon": "arcanearchives:raw_quartz_cluster",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "石英原石簇是一种光源。使用带有精准采集附魔的镐子可以采集它们；否则破坏石英原石簇会掉落一块辉耀石英原石。\n\n神秘时代石英原石簇可用作注魔稳定器。",
+        "images": [],
+        "item": "arcanearchives:raw_quartz_cluster",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "relations",
+        "text": "石英原石簇会在辉耀谐振台上方随时间生成。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": [
+          "arcanearchives:blocks/radiant_resonator"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "concepts/astral_sorcery",
+    "name": "星辉魔法兼容",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "光井\n\n\n\n辉耀石英原石辉耀石英原石产生液态星辉。耐久但产出较低。\n\n刻面辉耀石英刻面辉耀石英也能产生液态星辉。比辉耀石英原石效率稍高。",
+        "images": [],
+        "item": "astralsorcery:lightwell",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "河之泪\n\n河之泪以约每tick两桶的速度产生水。实际上是无限的，但由于技术限制存在极小的碎裂概率。\n\n山之泪以中等速度产生熔岩。实际上是无限的，但由于技术限制存在极小的碎裂概率。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/botania",
+    "name": "植物魔法兼容",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "花瓣炼药锅\n\n\n\n河之泪如果你的物品栏中某处有河之泪（或插在宝石槽中），右键点击花瓣炼药锅会将其注满水。",
+        "images": [],
+        "item": "botania:apothecary_default",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/networks",
+    "name": "网络",
+    "category": "concepts",
+    "icon": "arcanearchives:manifest",
+    "pages": [
+      {
+        "type": "text",
+        "text": "你放置的每个奥术档案馆方块都会成为网络的一部分。网络中的每个方块都可以被特定物品和设备访问，并最终归属于你。网络的创建是自动的，而你永远只能属于一个网络。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "邀请函使用其他玩家给你的邀请函，你可以与该玩家建立混合网络，共享彼此的物资。两个玩家网络中的一切内容都是互相可访问的。\n\n注销函使用注销函可以脱离混合网络。所有你放置的方块将回到你的个人网络中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "清单清单显示你所属网络中所有容器的内容。\n\n驱逐令通过在铁砧上命名并使用驱逐令，你可以强制混合网络中的某位玩家离开网络。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/potion_core",
+    "name": "药水核心兼容",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "效果\n\n净化之微光净化之微光在使用时附加解毒效果。",
+        "images": [],
+        "item": "minecraft:potion",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/quark",
+    "name": "Quark兼容",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "物品管理\n\n\n\n辉耀箱辉耀箱支持Quark的物品搜索栏，以及其整理、存放、合并、取出和补货按钮。",
+        "images": [],
+        "item": "minecraft:chest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "囤积火盆标记为收藏的物品不会在右键点击时存入囤积火盆。收藏物品仍可通过投掷方式放入囤积火盆。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "concepts/thaumcraft",
+    "name": "神秘时代兼容",
+    "category": "concepts",
+    "icon": "arcanearchives:tome_arcana",
+    "pages": [
+      {
+        "type": "text",
+        "text": "要素\n\n所有奥术档案馆的物品和方块都注册了神秘时代要素。值得注意的是，辉耀石英是一种源动之力的来源。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "spotlight",
+        "text": "炼药锅\n\n\n\n河之泪如果你的物品栏中某处有河之泪（或插在宝石槽中），右键点击炼药锅会将其注满水。",
+        "images": [],
+        "item": "thaumcraft:crucible",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "spotlight",
+        "text": "注魔\n\n\n\n石英原石簇石英原石簇可用作注魔稳定器。\n\n囤积火盆囤积火盆也可用作注魔稳定器。",
+        "images": [],
+        "item": "thaumcraft:infusion_matrix",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/agegleam",
+    "name": "岁月之微光",
+    "category": "gems",
+    "icon": "arcanearchives:agegleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "岁月之微光是一种奥术宝石，由绿色光谱的刻面辉耀石英以阿斯切切割而成。\n\n激活时，附近动物成长所需的剩余时间将显著减少，每影响一只动物消耗一点充能。",
+        "images": [],
+        "item": "arcanearchives:agegleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "要为耗尽的岁月之微光充能，只需手持它。每三分钟恢复一点充能。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:agegleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "agegleam",
+          "output": {
+            "item": "arcanearchives:agegleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:green_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:wheat",
+              "count": 9
+            },
+            {
+              "item": "minecraft:carrot",
+              "count": 9
+            },
+            {
+              "item": "minecraft:wheat_seeds",
+              "count": 9
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/arcane_gems",
+    "name": "奥术宝石",
+    "category": "gems",
+    "icon": "arcanearchives:slaughtergleam",
+    "pages": [
+      {
+        "type": "text",
+        "text": "奥术宝石是经过特殊切割的辉耀石英碎片，经过改造使其仅发出特定颜色的光芒。每颗宝石都有独特的魔法属性，详情见各自的页面。\n\n请注意，所有奥术宝石的配方都是临时的。未来奥术宝石将无法在宝石切割台上制作。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "奥术宝石的形状是其功能性质的指示。\n\n阿斯切：阿斯切切割的宝石通常以某种方式影响实体。\n\n椭圆切：椭圆切切割的宝石通常以某种方式影响方块或物品。\n\n潘佩尔切：潘佩尔切切割的宝石具有奇特或难以归类的效果。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "梨形切：梨形切切割的宝石通常以某种方式影响流体。\n\n三角切：三角切切割的宝石通常以某种方式影响能量。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/cleansegleam",
+    "name": "净化之微光",
+    "category": "gems",
+    "icon": "arcanearchives:cleansegleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "净化之微光是一种奥术宝石，由蓝色光谱的刻面辉耀石英以阿斯切切割而成。\n\n激活时，净化之微光会清除使用者的饥饿、恶心和中毒效果，消耗一点充能。",
+        "images": [],
+        "item": "arcanearchives:cleansegleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "如果在潜行时激活，可以尝试清除以你为中心三格范围内所有目标身上的这些效果。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "药水核心\n\n任何受到净化之微光影响的目标还将获得60秒的中毒免疫。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "要为耗尽的净化之微光充能，在物品栏中有一桶牛奶时激活宝石。牛奶被消耗，桶被返还。或者，如果你有辉耀之瓶连接到装有牛奶的辉耀储罐，牛奶会直接从储罐中扣除。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:cleansegleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "cleansegleam",
+          "output": {
+            "item": "arcanearchives:cleansegleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blue_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:poisonous_potato",
+              "count": 1
+            },
+            {
+              "item": "minecraft:milk_bucket",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/elixirspindle",
+    "name": "灵药纺锤",
+    "category": "gems",
+    "icon": "arcanearchives:elixirspindle",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "灵药纺锤是一种奥术宝石，由紫色光谱的刻面辉耀石英以潘佩尔切切割而成。\n\n手持时，你可以使用药水、喷溅药水和滞留药水而不消耗它们，每次消耗一点充能。此外，使用药水时你无需",
+        "images": [],
+        "item": "arcanearchives:elixirspindle",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "饮用，而是立即获得其效果。\n\n要为耗尽的灵药纺锤充能，在物品栏中有下界疣时激活宝石。需要五个下界疣才能完全充满宝石，如果少于五个则仅部分充能。下界疣被消耗。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:elixirspindle",
+        "crafting": [],
+        "gemcutting": {
+          "id": "elixirspindle",
+          "output": {
+            "item": "arcanearchives:elixirspindle",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:purple_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:brewing_stand",
+              "count": 1
+            },
+            {
+              "item": "minecraft:emerald",
+              "count": 2
+            },
+            {
+              "item": "minecraft:redstone",
+              "count": 4
+            },
+            {
+              "item": "minecraft:glowstone_dust",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/mindspindle",
+    "name": "心灵纺锤",
+    "category": "gems",
+    "icon": "arcanearchives:mindspindle",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "心灵纺锤是一种奥术宝石，由绿色光谱的刻面辉耀石英以潘佩尔切切割而成。\n\n手持时，心灵纺锤会将经验球中的经验量放大50%。每放大一点经验消耗一点充能，可以在需要充能前",
+        "images": [],
+        "item": "arcanearchives:mindspindle",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "影响总计800点未放大的经验。\n\n如果你手持心灵纺锤时接触到大量经验球，你可以瞬间吸收它们的精华，无需等待每个经验球依次被拾取。\n\n要为耗尽的心灵纺锤充能，在物品栏中有一本书时激活宝石。书被消耗。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:mindspindle",
+        "crafting": [],
+        "gemcutting": {
+          "id": "mindspindle",
+          "output": {
+            "item": "arcanearchives:mindspindle",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:green_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:enchanted_book",
+              "count": 1
+            },
+            {
+              "item": "minecraft:emerald",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/mountaintear",
+    "name": "山之泪",
+    "category": "gems",
+    "icon": "arcanearchives:mountaintear",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "山之泪是一种奥术宝石，由橙色光谱的刻面辉耀石英以梨形切切割而成。\n\n激活时，山之泪会在最远40格的距离处召唤一块熔岩，消耗一点充能。",
+        "images": [],
+        "item": "arcanearchives:mountaintear",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "要为耗尽的山之泪充能，将它丢入熔岩中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "星辉魔法光井\n\n当放置在有天空视野的光井中时，山之泪会以缓慢的速度产生熔岩。虽然山之泪有可能碎裂，但碎裂的概率微乎其微。实际上，山之泪可以无限期使用，除非其光井被破坏。一旦放入光井，山之泪无法取回。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:mountaintear",
+        "crafting": [],
+        "gemcutting": {
+          "id": "mountaintear",
+          "output": {
+            "item": "arcanearchives:mountaintear",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:orange_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:magma_block",
+              "count": 4
+            },
+            {
+              "item": "minecraft:lava_bucket",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/munchstone",
+    "name": "咀嚼之石",
+    "category": "gems",
+    "icon": "arcanearchives:munchstone",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "咀嚼之石是一种奥术宝石，由黑色光谱的刻面辉耀石英以椭圆切切割而成。\n\n激活时，咀嚼之石允许你消耗植物类方块来恢复饥饿值和饱和度。每恢复一点饥饿值和一点饱和度消耗充能。",
+        "images": [],
+        "item": "arcanearchives:munchstone",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "请注意，咀嚼之石吞噬的是世界中的方块，而不是像常规食物那样让你吃掉物品栏中的东西。\n\n值得注意的是，即使你的胃是满的，你也可以使用咀嚼之石。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "要为耗尽的咀嚼之石充能，在物品栏中有骨粉时激活宝石。需要五个骨粉才能完全充满宝石，如果少于五个则仅部分充能。骨粉被消耗。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:munchstone",
+        "crafting": [],
+        "gemcutting": {
+          "id": "munchstone",
+          "output": {
+            "item": "arcanearchives:munchstone",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:black_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:cake",
+              "count": 1
+            },
+            {
+              "item": "minecraft:glistering_melon_slice",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/murdergleam",
+    "name": "谋杀之微光",
+    "category": "gems",
+    "icon": "arcanearchives:murdergleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "谋杀之微光是一种奥术宝石，由黄色光谱的刻面辉耀石英以阿斯切切割而成。\n\n切换开启时，谋杀之微光保证你的所有攻击都将造成暴击。每次攻击消耗一点充能（即使因攻击过快而未造成伤害的攻击）。",
+        "images": [],
+        "item": "arcanearchives:murdergleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "宝石可以通过左键点击切换开关。\n\n当谋杀之微光的充能耗尽时，它会自动关闭。同样，当充能达到满值时，它会自动开启。\n\n要为耗尽的谋杀之微光充能，在宝石关闭的状态下打出传统的跳跃暴击。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:murdergleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "murdergleam",
+          "output": {
+            "item": "arcanearchives:murdergleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:yellow_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:diamond_sword",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blaze_powder",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/orderstone",
+    "name": "秩序之石",
+    "category": "gems",
+    "icon": "arcanearchives:orderstone",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "秩序之石是一种奥术宝石，由粉色光谱的刻面辉耀石英以椭圆切切割而成。\n\n激活时，秩序之石会将某些方块转化为更有序的状态。\n\n要为耗尽的秩序之石充能，手持宝石收集经验球。",
+        "images": [],
+        "item": "arcanearchives:orderstone",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "转化序列\n\n可以执行以下转化序列：\n\n沙子 -> 粗泥 -> 泥土 -> 菌丝 -> 灰化土 -> 草方块\n\n沙砾 -> 圆石 -> 石头\n\n苔石 -> 圆石 -> 石头",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "裂石砖 -> 石砖 -> 錾制石砖\n\n苔石砖 -> 石砖 -> 錾制石砖\n\n损坏的铁砧 -> 轻微损坏的铁砧 -> 铁砧\n\n熔炉 -> 点燃的熔炉",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:orderstone",
+        "crafting": [],
+        "gemcutting": {
+          "id": "orderstone",
+          "output": {
+            "item": "arcanearchives:orderstone",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:pink_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:anvil",
+              "count": 1
+            },
+            {
+              "item": "minecraft:oak_sign",
+              "count": 30
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/parchtear",
+    "name": "枯之泪",
+    "category": "gems",
+    "icon": "arcanearchives:parchtear",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "枯之泪是一种奥术宝石，由黑色光谱的刻面辉耀石英以梨形切切割而成。\n\n激活时，枯之泪会销毁半径1的立方体区域内的流体。如果潜行，则仅销毁单格流体。每销毁一格流体消耗一点充能。\n\n流体被销毁后，其他流体在十秒内无法流入同一空间。\n\n要为耗尽的枯之泪充能，将其放入吞噬护符的流体销毁槽中。",
+        "images": [],
+        "item": "arcanearchives:parchtear",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:parchtear",
+        "crafting": [],
+        "gemcutting": {
+          "id": "parchtear",
+          "output": {
+            "item": "arcanearchives:parchtear",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:black_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:terracotta",
+              "count": 4
+            },
+            {
+              "item": "minecraft:dead_bush",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/phoenixway",
+    "name": "凤凰之道",
+    "category": "gems",
+    "icon": "arcanearchives:phoenixway",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "凤凰之道是一种奥术宝石，由橙色光谱的刻面辉耀石英以三角切切割而成。\n\n激活时，凤凰之道会在最远40格的距离处点燃火焰，消耗一点充能。\n\n如果你即将受到火焰伤害",
+        "images": [],
+        "item": "arcanearchives:phoenixway",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "且手持凤凰之道时，它会阻挡该伤害并给予30秒的火焰免疫效果，消耗十二点充能。\n\n要为耗尽的凤凰之道充能，在物品栏中有火药时激活宝石。需要三个火药才能完全充满宝石，如果少于三个则仅部分充能。火药被消耗。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:phoenixway",
+        "crafting": [],
+        "gemcutting": {
+          "id": "phoenixway",
+          "output": {
+            "item": "arcanearchives:phoenixway",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blaze_powder",
+              "count": 4
+            },
+            {
+              "item": "minecraft:coal",
+              "count": 4
+            },
+            {
+              "item": "minecraft:flint_and_steel",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/recharging_gems",
+    "name": "奥术宝石充能",
+    "category": "gems",
+    "icon": "arcanearchives:salvegleam",
+    "pages": [
+      {
+        "type": "text",
+        "text": "大多数奥术宝石都有一个内部的能量储存，称为充能。当宝石的充能耗尽时，它会变成耗尽状态，无法使用直到被充能。当宝石耗尽时，你可以尝试为其充能，通常是在手持时激活耗尽的宝石。每颗宝石都有独特的充能方法，详见其各自页面。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "宝石槽\n\n放置在宝石槽中的宝石在耗尽时会尝试自动充能一次。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/rivertear",
+    "name": "河之泪",
+    "category": "gems",
+    "icon": "arcanearchives:rivertear",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "河之泪是一种奥术宝石，由蓝色光谱的刻面辉耀石英以梨形切切割而成。\n\n激活时，河之泪会在最远40格的距离处召唤一块水，消耗一点充能。\n\n要为耗尽的河之泪充能，",
+        "images": [],
+        "item": "arcanearchives:rivertear",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "将其丢入水中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "星辉魔法光井\n\n当放置在有天空视野的光井中时，河之泪会以极快的速度产生水。虽然河之泪有可能碎裂，但碎裂的概率微乎其微。实际上，河之泪可以无限期使用，除非其光井被破坏。一旦放入光井，河之泪无法取回。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "植物魔法花瓣炼药锅\n\n如果你的物品栏中某处有河之泪（或插在宝石槽中），右键点击花瓣炼药锅会将其注满水。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "神秘时代炼药锅\n\n如果你的物品栏中某处有河之泪（或插在宝石槽中），右键点击炼药锅会将其注满水。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:rivertear",
+        "crafting": [],
+        "gemcutting": {
+          "id": "rivertear",
+          "output": {
+            "item": "arcanearchives:rivertear",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:sugar",
+              "count": 4
+            },
+            {
+              "item": "minecraft:water_bucket",
+              "count": 1
+            },
+            {
+              "item": "minecraft:blue_dye",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/salvegleam",
+    "name": "抚慰之微光",
+    "category": "gems",
+    "icon": "arcanearchives:salvegleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "抚慰之微光是一种奥术宝石，由粉色光谱的刻面辉耀石英以阿斯切切割而成。\n\n手持并切换开启时，如果你受伤，宝石大约每秒会为你恢复半颗心。每半颗心消耗一点充能。",
+        "images": [],
+        "item": "arcanearchives:salvegleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "要为耗尽的抚慰之微光充能，手持宝石屠杀一只被动动物。每杀一只恢复相当于该动物最大生命值一半的充能点数。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:salvegleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "salvegleam",
+          "output": {
+            "item": "arcanearchives:salvegleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:pink_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:golden_apple",
+              "count": 1
+            },
+            {
+              "item": "minecraft:glistering_melon_slice",
+              "count": 1
+            },
+            {
+              "item": "minecraft:golden_carrot",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/slaughtergleam",
+    "name": "屠宰之微光",
+    "category": "gems",
+    "icon": "arcanearchives:slaughtergleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "屠宰之微光是一种奥术宝石，由红色光谱的刻面辉耀石英以阿斯切切割而成。\n\n手持时，你的攻击被视为具有一级抢夺附魔。如果你使用的武器已有抢夺附魔，则其等级增加一级",
+        "images": [],
+        "item": "arcanearchives:slaughtergleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "。\n\n要为耗尽的屠宰之微光充能，在物品栏中有金粒时激活宝石。金粒被消耗。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:slaughtergleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "slaughtergleam",
+          "output": {
+            "item": "arcanearchives:slaughtergleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:red_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:diamond",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 2
+            },
+            {
+              "item": "minecraft:lapis_block",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/stormway",
+    "name": "风暴之道",
+    "category": "gems",
+    "icon": "arcanearchives:stormway",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "风暴之道是一种奥术宝石，由黄色光谱的刻面辉耀石英以三角切切割而成。\n\n激活时，风暴之道会在30格范围内召唤一道闪电，消耗一点充能。\n\n如果你在手持风暴之道时被闪电击中，你会",
+        "images": [],
+        "item": "arcanearchives:stormway",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "短时间内获得速度、夜视和抗性提升。当宝石赋予这些效果时，消耗六点充能。\n\n切换开启时，如果你被远程攻击击中，闪电会在攻击者的位置落下。该闪电比普通闪电危险得多，每次反击消耗一点充能。\n\n要为耗尽的风暴之道充能，在暴风雨天气中手持或将其丢到室外。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:stormway",
+        "crafting": [],
+        "gemcutting": {
+          "id": "stormway",
+          "output": {
+            "item": "arcanearchives:stormway",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:yellow_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:redstone",
+              "count": 16
+            },
+            {
+              "item": "minecraft:iron_bars",
+              "count": 8
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "gems/switchgleam",
+    "name": "调换之微光",
+    "category": "gems",
+    "icon": "arcanearchives:switchgleam",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "调换之微光是一种奥术宝石，由紫色光谱的刻面辉耀石英以阿斯切切割而成。\n\n激活时，调换之微光会交换你和你所看向的实体的位置，消耗一点充能。\n\n手持时，10格范围内的末影人",
+        "images": [],
+        "item": "arcanearchives:switchgleam",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "的传送尝试会被吸收。\n\n要为耗尽的调换之微光充能，让它吸收末影人的传送。每次吸收传送尝试恢复三点充能。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:switchgleam",
+        "crafting": [],
+        "gemcutting": {
+          "id": "switchgleam",
+          "output": {
+            "item": "arcanearchives:switchgleam",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            },
+            {
+              "item": "minecraft:purple_dye",
+              "count": 4
+            },
+            {
+              "item": "minecraft:tripwire_hook",
+              "count": 1
+            },
+            {
+              "item": "minecraft:ender_pearl",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/devouring_charm",
+    "name": "吞噬护符",
+    "category": "items",
+    "icon": "arcanearchives:devouring_charm",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "吞噬护符可以让你销毁物品或清空桶中的流体。吞噬护符也可作为可选的升级组件。",
+        "images": [],
+        "item": "arcanearchives:devouring_charm",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀储罐\n\n当用于升级辉耀储罐时，超过储罐最大容量的多余流体会被销毁。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀宝库\n\n当用于升级辉耀宝库时，超过宝库最大容量的多余物品会被销毁。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "枯之泪\n\n将枯之泪放入吞噬护符的流体销毁槽中可以恢复其充能。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:devouring_charm",
+        "crafting": [],
+        "gemcutting": {
+          "id": "devouring_charm",
+          "output": {
+            "item": "arcanearchives:devouring_charm",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 1
+            },
+            {
+              "item": "minecraft:obsidian",
+              "count": 2
+            },
+            {
+              "item": "minecraft:flint_and_steel",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n永恒大学向所有学徒提供这些简单的护符。护符口内的传送门在许多方面类似于通向地狱的传送门，只是连接是单向的。\n\n任何放入护符的东西都将永远消失，被送到某个地狱般的虚空中销毁。将剩余的食物残渣、实验废弃物、不再需要的生物",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "以及其他垃圾丢入你的护符，是标准的大学程序。\n\n虽然你拿到的是供个人使用的手持版本，但更大的护符可以在获得导师许可后借用最长一天的时间。\n\n如果你发现自己造成了特别巨大的混乱，一个直径约八十个方块的、内含吞噬护符的房间，可以在获得导师的书面许可",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "以及至少另外两位导师的许可后借用。\n\n请注意分寸，至少尽量不要让事态发展到那一步。\n\n学徒的全套装备\n...发给永恒大学所有学徒的标准信函",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/gem_socket",
+    "name": "宝石槽",
+    "category": "items",
+    "icon": "arcanearchives:gemsocket",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "宝石槽是一种饰品，可以佩戴在身体槽位中。\n\n激活宝石槽可以让你插入一颗奥术宝石。在被动效果方面，你始终被视为手持该宝石。",
+        "images": [],
+        "item": "arcanearchives:gemsocket",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "以下奥术宝石具有被动效果。需要切换开关的宝石可能需要在插入前开启，被动效果才能生效。\n\n屠宰之微光\n谋杀之微光\n岁月之微光\n调换之微光\n抚慰之微光\n心灵纺锤\n灵药纺锤\n凤凰之道\n风暴之道",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:gemsocket",
+        "crafting": [],
+        "gemcutting": {
+          "id": "gemsocket",
+          "output": {
+            "item": "arcanearchives:gemsocket",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:scintillating_inlay",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 4
+            },
+            {
+              "item": "minecraft:bowl",
+              "count": 1
+            },
+            {
+              "item": "minecraft:leather",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/letter_invitation",
+    "name": "邀请函",
+    "category": "items",
+    "icon": "arcanearchives:letter_invitation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "如果其他玩家使用了你制作的邀请函，他们将被添加到你的网络中。\n\n清单查看清单时，网络中所有玩家放置的辉耀存储设备都可见。",
+        "images": [],
+        "item": "arcanearchives:letter_invitation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:letter_invitation",
+        "crafting": [],
+        "gemcutting": {
+          "id": "letter_invitation",
+          "output": {
+            "item": "arcanearchives:letter_invitation",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 1
+            },
+            {
+              "item": "minecraft:light_blue_dye",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n旅法师雅兰：\n\n预兆占卜师们认为，一个名叫辉草甸的村庄中住着一名具有魔法倾向的儿童。受招募部委托，命你前去接回该儿童，并将其带回永恒大学进行评估。\n\n根据他们的占卜，该儿童已经开始施展超出",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "乡民通常使用的粗浅巫术范畴的魔法。试着说服该儿童向你展示其能力。不管其法术多么原始，都要装出感兴趣的样子。\n\n如果你能说服该儿童及其父母自愿将其交给我们，你的任务将最为轻松。记得语速要慢、用词要简单。如果辉草甸的乡民表现出抗拒交出孩子的态度，可以提供一些小型魔法",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "增强来改善他们的生活作为交换——比如一个铁傀儡或一个净水护符。\n\n如果你无法说服村庄自愿放手，就抹除该儿童在村民记忆中的存在，然后强行带走。不必担心抵抗或对其造成心理创伤，因为它的记忆将被清除并替换为更合适的内容。此法应作为最后手段，因为其带来的额外工作量将严重损害你在",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "招募部的地位。\n\n沐浴在你启迪的光芒中，永远行走在智慧的道路上。\n\n招募部官方招募令\n...1627年，冬末",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/letter_resignation",
+    "name": "注销函",
+    "category": "items",
+    "icon": "arcanearchives:letter_resignation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "注销函可用于离开通过邀请函创建的混合网络。",
+        "images": [],
+        "item": "arcanearchives:letter_resignation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "清单\n\n当你离开混合网络时，你放置的所有辉耀存储设备将从网络中移除，你所离开网络的成员将不再能在清单中看到这些设备。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:letter_resignation",
+        "crafting": [],
+        "gemcutting": {
+          "id": "letter_resignation",
+          "output": {
+            "item": "arcanearchives:letter_resignation",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 1
+            },
+            {
+              "item": "minecraft:pink_dye",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n致永恒大学我尊敬的同事们：\n\n我整个启迪生涯都在不懈地努力，将启迪之光带给所有智政院认为值得分享其光芒的人。我努力成为所有人的启迪灯塔，但我再也无法对这所大学所容忍的谬误视而不见了。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "伟大建筑师们所分享的启迪，并非为粗俗的乡民准备的。启迪是为纯净者而设的；我们不能继续用那些永远无法超越旅法师身份的粗陋新手来稀释我们的队伍。\n\n由于这种做法的增加，尽管我多次抗议，我不再认为启迪是大师议会的最高目标。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "因此，我决定立即辞去在这个曾经伟大的团体中的职务。\n\n拉舍隆大师的官方注销函\n...1634年，春初",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/manifest",
+    "name": "清单",
+    "category": "items",
+    "icon": "arcanearchives:manifest",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "清单以单一列表的形式列出所有已加载的辉耀存储设备中存放的物品。\n\n悬停在一个槽位上，你可以看到存储该物品的每个位置列表，包括辉耀箱的名称。点击槽位可以追踪这些物品的位置，从你当前的位置向目标容器绘制线条",
+        "images": [],
+        "item": "arcanearchives:manifest",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "（只要目标容器在同一维度中）。\n\n激活已被追踪的容器会禁用追踪线，点击清单界面底部的“结束追踪”按钮也是一样。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "搜索栏：\n\n你可以通过在搜索栏中输入文字来筛选清单显示的内容。右键点击搜索栏可清除当前搜索词。你也可以Shift点击搜索栏来复制当前的JEI搜索词。\n\n排序切换：第一个按钮切换按名称排序或按数量排序。\n\n顺序切换：第二个",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "按钮切换升序或降序排列。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "JEI同步：\n\n第三个按钮切换搜索栏是否与JEI搜索词同步。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "监视水晶\n\n非辉耀存储容器中的物品可以通过在其容器上安装监视水晶来添加到清单中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:manifest",
+        "crafting": [],
+        "gemcutting": {
+          "id": "manifest",
+          "output": {
+            "item": "arcanearchives:manifest",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 1
+            },
+            {
+              "item": "minecraft:black_dye",
+              "count": 1
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 2
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/radiant_amphora",
+    "name": "辉耀之瓶",
+    "category": "items",
+    "icon": "arcanearchives:radiant_amphora",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀之瓶作为与特定辉耀储罐的长距离连接工具。潜行时对着目标储罐使用双耳瓶可以将其绑定。双耳瓶会变色以表示连接已建立。",
+        "images": [],
+        "item": "arcanearchives:radiant_amphora",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "填充模式：在填充模式下，拾取流体会直接将其存入绑定的辉耀储罐中。\n\n清空模式：在清空模式下，流体会从绑定的辉耀储罐中取出并放置在目标位置。\n\n通过左键点击空气可以切换辉耀之瓶的当前模式。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "发射器\n\n将辉耀之瓶放入发射器中时，如果发射器前方的空间为空，它会尝试从绑定的储罐中放置流体。如果发射器前方有流体方块，双耳瓶则会尝试拾取流体并将其发送到绑定的储罐中。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_amphora",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_amphora",
+          "output": {
+            "item": "arcanearchives:radiant_amphora",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 4
+            },
+            {
+              "item": "minecraft:clay_ball",
+              "count": 4
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 4
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/radiant_key",
+    "name": "辉耀之匙",
+    "category": "items",
+    "icon": "arcanearchives:radiant_key",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "当主手或副手持有时，你可以打开陷阱箱而不会触发红石信号。",
+        "images": [],
+        "item": "arcanearchives:radiant_key",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀宝库\n\n当用于升级辉耀宝库时，宝库所容纳的物品类型将被固定。即使宝库内部存储减少到0件物品，它也会为该类物品保留存储空间。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:radiant_key",
+        "crafting": [],
+        "gemcutting": {
+          "id": "radiant_key",
+          "output": {
+            "item": "arcanearchives:radiant_key",
+            "count": 4
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:gold_ingot",
+              "count": 1
+            },
+            {
+              "item": "minecraft:gold_nugget",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/raw_quartz",
+    "name": "辉耀石英原石",
+    "category": "items",
+    "icon": "arcanearchives:raw_quartz",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "辉耀石英原石是一种未经精炼的魔法晶体，是奥术档案馆所有内容的基础。它主要用作合成材料。\n\n箱子辉耀石英原石可用于将箱子转化为辉耀箱。\n\n",
+        "images": [],
+        "item": "arcanearchives:raw_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "工作台\n\n辉耀石英原石可用于将工作台转化为辉耀工作台。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "一线光\n\n辉耀石英原石可以通过对着另一个方块敲击来制作一线光。\n\n星辉魔法光井当放置在有天空视野的光井中时，辉耀石英原石会随时间产生液态星辉。与海蓝宝石相比，其产出率显著较低，但更不易碎裂。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "relations",
+        "text": "辉耀石英原石会在辉耀谐振台上方随时间生成，形式为石英原石簇。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": [
+          "arcanearchives:blocks/radiant_resonator"
+        ]
+      },
+      {
+        "type": "spotlight",
+        "text": "辉耀石英原石也可以压缩成存储方块。辉耀石英原石块是一种光源。",
+        "images": [],
+        "item": "arcanearchives:storage_raw_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/scepter_manipulation",
+    "name": "操纵权杖",
+    "category": "items",
+    "icon": "arcanearchives:scepter_manipulation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "操纵权杖用于修改某些奥术档案馆方块的属性。\n\n以下方块与操纵权杖有交互：\n辉耀箱\n辉耀储罐\n辉耀宝库\n囤积火盆",
+        "images": [],
+        "item": "arcanearchives:scepter_manipulation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:scepter_manipulation",
+        "crafting": [],
+        "gemcutting": {
+          "id": "scepter_manipulation",
+          "output": {
+            "item": "arcanearchives:scepter_manipulation",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "arcanearchives:scepter_revelation",
+              "count": 1
+            },
+            {
+              "item": "arcanearchives:shaped_quartz",
+              "count": 1
+            }
+          ],
+          "creator": false
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/scepter_revelation",
+    "name": "启示权杖",
+    "category": "items",
+    "icon": "arcanearchives:scepter_revelation",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "启示权杖用于在潜行时查询特定奥术档案馆方块的信息。\n\n以下方块与启示权杖有交互：",
+        "images": [],
+        "item": "arcanearchives:scepter_revelation",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "\n\n监视水晶\n辉耀箱\n辉耀工作台\n辉耀谐振台\n辉耀储罐\n辉耀宝库\n\n启示权杖也被用作其他权杖的合成材料。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "crafting",
+        "text": "启示权杖可以通过常规方式合成。",
+        "images": [],
+        "item": "",
+        "crafting": [
+          {
+            "id": "arcanearchives:scepter_revelation",
+            "grid": [
+              null,
+              null,
+              {
+                "item": "arcanearchives:raw_quartz"
+              },
+              null,
+              {
+                "item": "minecraft:gold_nugget"
+              },
+              null,
+              {
+                "item": "minecraft:stick"
+              },
+              null,
+              null
+            ],
+            "output": "arcanearchives:scepter_revelation",
+            "count": 1
+          }
+        ],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n一系列简单的占卜法术赋予这根权杖多种有用的信息探测能力。使用启示权杖收集实验数据是标准的大学程序。\n\n如果你的实验可能导致人身伤害，你的启示权杖会被灌注一种危险感知法术，并开始剧烈震动。在这种情况下，",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "你大约有六十秒时间撤离现场。\n\n永恒大学不对因粗心的实验室操作而造成的伤害负责。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "学徒的全套装备\n\n\n...摘自发给永恒大学所有学徒的信函\n\n有趣。当这种晶体材料（我称之为辉耀石英）以某种棱镜形式附着时，启示权杖的信息探测能力似乎大大增强。\n\n与我之前的仪器不同，使用这个新改进的",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "启示权杖对我的存储装置返回了一致的结果。\n\n不幸的是，它似乎失去了预知警告能力。\n\n补遗\n...莎拉维达\n...1665年，夏初",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/shaped_quartz",
+    "name": "刻面辉耀石英",
+    "category": "items",
+    "icon": "arcanearchives:shaped_quartz",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "刻面辉耀石英是经过切割和抛光的辉耀石英，适用于更高级的用途。它主要用作合成材料。",
+        "images": [],
+        "item": "arcanearchives:shaped_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "星辉魔法光井\n\n当放置在有天空视野的光井中时，刻面辉耀石英会随时间产生液态星辉。与海蓝宝石相比，其产出率显著较低，但更不易碎裂。刻面辉耀石英比辉耀石英原石效率稍高。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "刻面辉耀石英可以在宝石切割台上制作。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "spotlight",
+        "text": "刻面辉耀石英也可以压缩成存储方块。刻面辉耀石英块是一种光源。",
+        "images": [],
+        "item": "arcanearchives:storage_shaped_quartz",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀储罐\n\n刻面辉耀石英块可用于升级辉耀储罐。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "辉耀宝库\n\n刻面辉耀石英块可用于升级辉耀宝库。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/sliver_of_light",
+    "name": "一线光",
+    "category": "items",
+    "icon": "arcanearchives:quartz_sliver",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "一线光是一种光源，是火把的替代品。与火把不同，它们可以放置在方块的下表面，并且不会被流体冲毁。",
+        "images": [],
+        "item": "arcanearchives:quartz_sliver",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "一线光可以通过将一块辉耀石英原石对着另一个方块敲击来制作。每次敲击有40%的几率产生一个碎片，并有20%的几率产生一把碎片但消耗掉辉耀石英原石。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  },
+  {
+    "id": "items/writ_expulsion",
+    "name": "驱逐令",
+    "category": "items",
+    "icon": "arcanearchives:writ_expulsion",
+    "pages": [
+      {
+        "type": "spotlight",
+        "text": "驱逐令可用于强制将玩家从混合网络中移除。\n\n铁砧在铁砧上将驱逐令命名为要踢出网络的玩家名称后，使用它以完成驱逐。",
+        "images": [],
+        "item": "arcanearchives:writ_expulsion",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "gct_recipe",
+        "text": "Gemcutter recipe",
+        "images": [],
+        "item": "arcanearchives:writ_expulsion",
+        "crafting": [],
+        "gemcutting": {
+          "id": "writ_expulsion",
+          "output": {
+            "item": "arcanearchives:writ_expulsion",
+            "count": 1
+          },
+          "ingredients": [
+            {
+              "item": "minecraft:paper",
+              "count": 3
+            },
+            {
+              "item": "arcanearchives:radiant_dust",
+              "count": 1
+            },
+            {
+              "item": "minecraft:red_dye",
+              "count": 1
+            }
+          ],
+          "creator": true
+        },
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "背景故事\n\n莎拉维达大师，情况已经变得显而易见：你不再拥有作为永恒大学大师所需的客观判断力。\n\n你完全沉迷于你所声称存在的这种材料。然而你反复未能拿出任何实际证据来证明其存在，除了一些发光的碎片。我要指出，这种效果",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "用一个简单的咒语就能实现。\n\n本议会的意见是，你的心智已被你的神秘学研究侵蚀。你看到不存在之物，是因为扭曲已扭曲了你的心智。\n\n考虑到你的年龄，本议会的意见是你的心智正在退化为老年痴呆。你所说的那些五边形和六边形纯属无稽之谈——那是",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "一个衰弱的老糊涂无法接受某个理论可能是错误的白日梦。\n\n四方议会多数已作出裁决。你已偏离智慧之路，你的启迪权利已经失效。你被逐出永恒大学，不再享有大师头衔。你不得再从事你的技艺，也不得踏入大学，违者处死。",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      },
+      {
+        "type": "text",
+        "text": "莎拉维达纪律听证会的最终声明\n...绿焰之库斯特，研究四执政官\n...1670年，春盛",
+        "images": [],
+        "item": "",
+        "crafting": [],
+        "gemcutting": null,
+        "links": []
+      }
+    ]
+  }
+]

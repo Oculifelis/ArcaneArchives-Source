@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "arcanearchives:block/radiant_crafting_table"
+    },
+    "facing=down": {
+      "model": "arcanearchives:block/radiant_crafting_table"
+    },
+    "facing=north": {
+      "model": "arcanearchives:block/radiant_crafting_table"
+    },
+    "facing=south": {
+      "model": "arcanearchives:block/radiant_crafting_table"
+    },
+    "facing=west": {
+      "model": "arcanearchives:block/radiant_crafting_table"
+    },
+    "facing=east": {
+      "model": "arcanearchives:block/radiant_crafting_table"
+    }
+  }
+}

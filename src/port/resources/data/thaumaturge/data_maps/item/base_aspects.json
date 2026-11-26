@@ -1,0 +1,708 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    }
+  ],
+  "values": {
+    "arcanearchives:raw_quartz": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:raw_quartz_cluster": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:shaped_quartz": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:storage_raw_quartz": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 45
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 45
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 45
+      }
+    ],
+    "arcanearchives:storage_shaped_quartz": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 90
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 90
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 90
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 45
+      }
+    ],
+    "arcanearchives:quartz_sliver": [
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 1
+      }
+    ],
+    "arcanearchives:manifest": [
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:lectern_manifest": [
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 8
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_chest": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_tank": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_trove": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_resonator": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:brazier_of_hoarding": [
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_dust": [
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:material_interface": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 10
+      }
+    ],
+    "arcanearchives:scintillating_inlay": [
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:machina",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:containment_field": [
+      {
+        "aspect": "thaumaturge:praemunio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:matrix_brace": [
+      {
+        "aspect": "thaumaturge:vinculum",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:volatus",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:devouring_charm": [
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 40
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:monitoring_crystal": [
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_crafting_table": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 40
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:gemcutters_table": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 40
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:sensus",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:letter_invitation": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:instrumentum",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:letter_resignation": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:writ_expulsion": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_amphora": [
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 40
+      },
+      {
+        "aspect": "thaumaturge:motus",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 20
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:terra",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:scepter_revelation": [
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 25
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 10
+      }
+    ],
+    "arcanearchives:scepter_manipulation": [
+      {
+        "aspect": "thaumaturge:permutatio",
+        "amount": 25
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 15
+      },
+      {
+        "aspect": "thaumaturge:herba",
+        "amount": 10
+      }
+    ],
+    "arcanearchives:gemsocket": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:radiant_lantern": [
+      {
+        "aspect": "thaumaturge:lux",
+        "amount": 10
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 5
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 5
+      }
+    ],
+    "arcanearchives:slaughtergleam": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:desiderium",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:murdergleam": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:mortuus",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:agegleam": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:cleansegleam": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:switchgleam": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:alienis",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:salvegleam": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:victus",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:orderstone": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:ordo",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:munchstone": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:perditio",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:mindspindle": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:cognitio",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:elixirspindle": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:alkimia",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:mountaintear": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:rivertear": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:aqua",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:parchtear": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:phoenixway": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:ignis",
+        "amount": 30
+      }
+    ],
+    "arcanearchives:stormway": [
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:vitreus",
+        "amount": 30
+      },
+      {
+        "aspect": "thaumaturge:potentia",
+        "amount": 30
+      }
+    ]
+  }
+}

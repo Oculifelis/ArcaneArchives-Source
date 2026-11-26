@@ -1,0 +1,18 @@
+{
+  "name": "Recharging Arcane Gems",
+  "icon": "arcanearchives:salvegleam",
+  "category": "arcanearchives:gems",
+  "flag": "arcanearchives:arsenal_enabled",
+  "advancement": "arcanearchives:gemcutters_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Most Arcane Gems have an internal reservoir of light, called $(bold)charge$(). Once a gem's charge runs out, it becomes $(bold)dun$() and cannot be used until recharged. When a gem goes dun, you can attempt to recharge it, usually by activating the dun gem while holding it. Each gem has a unique method of recharging noted on its individual page."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Gems contained within a $(l:arcanearchives:items/gem_socket)Gem Socket$() will attempt to recharge themselves once upon going dun.",
+      "title": "Gem Socket"
+    }
+  ]
+}
